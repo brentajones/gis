@@ -1,0 +1,437 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Bureau of the Census (BOC)</origin>
+        <pubdate>20130101</pubdate>
+        <title>cbsa v. 4</title>
+        <geoform>diagram</geoform>
+        <pubinfo>
+          <publish>U.S. Bureau of the Census (BOC)</publish>
+        </pubinfo>
+        <onlink>http://www.census.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. Metropolitan and Micropolitan Statistical Areas are together termed Core Based Statistical Areas (CBSAs) and are defined by the Office of Management and Budget (OMB) and consist of the county or counties or equivalent entities associated with at least one urban core (urbanized area or urban cluster) of at least 10,000 population, plus adjacent counties having a high degree of social and economic integration with the core as measured through commuting ties with the counties containing the core. Categories of CBSAs are: Metropolitan Statistical Areas, based on urbanized areas of 50,000 or more population, and Micropolitan Statistical Areas, based on urban clusters of at least 10,000 population but less than 50,000 population. The CBSAs for the 2010 Census are those defined by OMB and published in December 2009.</abstract>
+      <purpose>In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line Shapefiles.</purpose>
+    </descript>
+    <status>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-178.341498</westbc>
+        <eastbc>-65.527366</eastbc>
+        <northbc>65.454477</northbc>
+        <southbc>17.881241</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Core Based Statistical Areas</themekey>
+        <themekey>polygon</themekey>
+        <themekey>area</themekey>
+        <themekey>background</themekey>
+        <themekey>metropolitan statistical area</themekey>
+        <themekey>MSA</themekey>
+        <themekey>CBSA</themekey>
+        <themekey>Micropolitan Statistical Areas</themekey>
+        <themekey>boundary</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>location</themekey>
+        <themekey>planningCadastre</themekey>
+        <themekey>society</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>US Territories</placekey>
+        <placekey>USA</placekey>
+        <placekey>United States</placekey>
+        <placekey>US</placekey>
+      </place>
+      <stratum>
+        <stratkt>None</stratkt>
+        <stratkey>ground</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2003</tempkey>
+        <tempkey>2008</tempkey>
+        <tempkey>2011</tempkey>
+        <tempkey>2010</tempkey>
+        <tempkey>2009</tempkey>
+        <tempkey>2012</tempkey>
+        <tempkey>2013</tempkey>
+        <tempkey>2014</tempkey>
+        <tempkey>2015</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau. These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source. The boundary information in the TIGER/Line Shapefiles are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest. Acknowledgment of the Office of the Assistant Secretary for Research and Technology's Bureau of Transportation Statistics (OST-R/BTS) National Transportation Atlas Databases (NTAD) 2015 would be appreciated in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology's Bureau of Transportation Statistics (OST-R/BTS)</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Geospatial Information Services</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>800-853-1351</cntvoice>
+        <cntemail>answers@bts.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Bureau of the Census (BOC)</cntorg>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <datacred>The United States CBSA Boundaries files were compiled from a variety of sources including the US Bureau of the Census, and data supplied by individual states.</datacred>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <crossref>
+      <citeinfo>
+        <origin>Office of the Assistant Secretary for Research and Technology's Bureau of Transportation Statistics (OST-R/BTS)</origin>
+        <pubdate>20130101</pubdate>
+        <title>National Transportation Atlas Databases (NTAD) 2015</title>
+        <pubinfo>
+          <pubplace>1200 New Jersey Ave. SE, Washington, DC, 20590, US</pubplace>
+          <publish>Office of the Assistant Secretary for Research and Technology's Bureau of Transportation Statistics (OST-R/BTS)</publish>
+        </pubinfo>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>929</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.983152841195215e-009</latres>
+        <longres>8.983152841195215e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>cbsa</enttypl>
+        <enttypd>Current Metropolitan Statistical Area/Micropolitan Statistical Area (CBSA) National</enttypd>
+        <enttypds>U.S. Census Bureau</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CSAFP</attrlabl>
+        <attrdef>Current combined statistical area code, if applicable</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>100</rdommin>
+            <rdommax>599</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CBSAFP</attrlabl>
+        <attrdef>Current metropolitan statistical area/micropolitan statistical area code</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>10000</rdommin>
+            <rdommax>49999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEOID</attrlabl>
+        <attrdef>Metropolitan statistical area/micropolitan statistical area identifier, metropolitan statistical area/micropolitan statistical area code</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <udom>Metropolitan statistical area/micropolitan statistical area code found in CBSAFP</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Current metropolitan statistical area/micropolitan statistical area name</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Refer to the online Metropolitan Statistical Area/ Micropolitan Statistical Area file at URL:http://www.census.gov/population/www/estimates/metroarea.html</codesetn>
+            <codesets>U.S. Census Bureau</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAMELSAD</attrlabl>
+        <attrdef>Current name and the translated legal/statistical description for metropolitan statistical area/micropolitan statistical area</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Refer to the online Metropolitan Statistical Area/Micropolitan Statistical Area file at URL: http://www.census.gov/population/www/estimates/metroarea.html and the translated legal/statistical area description code for Metropolitan Statistical Area/Micropolitan Statistical Area name that appears in LSAD</codesetn>
+            <codesets>U.S. Census Bureau</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LSAD</attrlabl>
+        <attrdef>Current legal/statistical area description code for metropolitan statistical area/micropolitan statistical area</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>M1</edomv>
+            <edomvd>Metropolitan Statistical Area</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>M2</edomv>
+            <edomvd>Micropolitan Statistical Area</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MEMI</attrlabl>
+        <attrdef>Current metropolitan/micropolitan status indicator</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Metropolitan</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Micropolitan</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MTFCC</attrlabl>
+        <attrdef>MAF/TIGER feature class code</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>G3110</edomv>
+            <edomvd>Metropolitan and Micropolitan Statistical Area</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ALAND</attrlabl>
+        <attrdef>Current land area (square meters)</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0 to 9,999,999,999,999</edomv>
+            <edomvd>Blank</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AWATER</attrlabl>
+        <attrdef>Current water area (square meters)</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0 to 9,999,999,999,999</edomv>
+            <edomvd>Blank</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INTPTLAT</attrlabl>
+        <attrdef>Current latitude of the internal point</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>00</edomv>
+            <edomvd>Blank</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INTPTLON</attrlabl>
+        <attrdef>Current longitude of the internal point</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>00</edomv>
+            <edomvd>Blank</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STPOSTAL1</attrlabl>
+        <attrdef>State (postal code) containing the largest part of the CBSA</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STPOSTAL2</attrlabl>
+        <attrdef>State (postal code) containing the second largest part of the CBSA</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STPOSTAL3</attrlabl>
+        <attrdef>State (postal code) containing the third largest part of the CBSA</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STPOSTAL4</attrlabl>
+        <attrdef>State (postal code) containing the least part of the CBSA</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STFIPS1</attrlabl>
+        <attrdef>State (FIPS code) containing the largest part of the CBSA</attrdef>
+        <attrdefs>National Institute for Standards and Technology (NIST)</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>FIPS code of the state containing largest CBSA area.</codesetn>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STFIPS2</attrlabl>
+        <attrdef>State (FIPS code) containing the second largest part of the CBSA</attrdef>
+        <attrdefs>National Institute for Standards and Technology (NIST)</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>FIPS code of the state containing second largest CBSA area.</codesetn>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STFIPS3</attrlabl>
+        <attrdef>State (FIPS code) containing the second third largest part of the CBSA</attrdef>
+        <attrdefs>National Institute for Standards and Technology (NIST)</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>FIPS code of the state containing third largest CBSA area.</codesetn>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STFIPS4</attrlabl>
+        <attrdef>State (FIPS code) containing the least part of the CBSA</attrdef>
+        <attrdefs>National Institute for Standards and Technology (NIST)</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>FIPS code of the state containing fourth largest CBSA area.</codesetn>
+          </codesetd>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology's Bureau of Transportation Statistics (OST-R/BTS</cntorg>
+          <cntper>Office of Geospatial Information Systems</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntemail>answers@bts.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI Shapefile</formname>
+          <formvern>2015</formvern>
+          <filedec>No compression applied. However, if using digital transfer online option, note access instructions.</filedec>
+          <transize>5.524</transize>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>dvd</offmedia>
+            <reccap>
+              <recden>650</recden>
+              <recdenu>megabytes</recdenu>
+            </reccap>
+            <recfmt>ISO 9660</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+      <ordering>Call (202-366-DATA), or E-mail (answers@bts.gov) OST-R/BTS to request the National Transportation Atlas Databases (NTAD) 2015 DVD. The NTAD DVD can be ordered from the online bookstore at www.bts.gov. Individual datasets from the NTAD can also be downloaded from the Office of Geospatial Information Systems website at http://www.bts.gov/programs/geographic_information_services/.</ordering>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20150610</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology's Bureau of Transportation Statistics (OST-R/BTS)</cntorg>
+          <cntper>Office of Geospatial Information Systems</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20007</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntemail>answers@bts.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
