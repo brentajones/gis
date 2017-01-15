@@ -1,0 +1,511 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>US Army Corps of Engineers (USACE)</origin>
+        <pubdate>20120724</pubdate>
+        <title>ports v. 12</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Contains physical information on commercial facilities at the principal U.S. Coastal, Great Lakes and Inland Ports. The data consists of listings of port area's waterfront facilities, including information on berthing, cranes, transit sheds, grain elevators, marine repair plants, fleeting areas, and docking and storage facilities. Collection of data is performed on a rotational basis to ensure on-site accuracy at each facility.</abstract>
+      <purpose>The Navigation Data Center had several objectives in developing the U.S. Waterway Data. These objectives support the concept of a National Spatial Data Provide public access to national waterway data. Foster interagency and intra-agency cooperation through data sharing. Provide a mechanism to integrate waterway data (U.S. Army Corps of Engineers Port/Facility and U.S. Coast Guard Accident Data, for example) Provide a basis for intermodal analysis. Assist standardization of waterway entity definitions (Ports/Facilities, Locks, etc.). Provide public access to the National Waterway Network, which can be used as a basemap to support graphical overlays and analysis with other spatial data (waterway and modal network/facility databases, for example). Provide reliable data to support future waterway and intermodal applications.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20110101</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-178.319529</westbc>
+        <eastbc>179.132450</eastbc>
+        <northbc>71.292642</northbc>
+        <southbc>-14.500000</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>transportation</themekey>
+        <themekey>port</themekey>
+        <themekey>Transportation Theme</themekey>
+        <themekey>NGDA</themekey>
+	<themekey>National Geospatial Data Asset</themekey>
+        <themekey>Point</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>transportation</themekey>
+        <themekey>location</themekey>
+        <themekey>economy</themekey>
+        <themekey>structure</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>US Territories</placekey>
+        <placekey>United States</placekey>
+      </place>
+      <stratum>
+        <stratkt>None</stratkt>
+        <stratkey>ground</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2011</tempkey>
+        <tempkey>2012</tempkey>
+        <tempkey>2009</tempkey>
+        <tempkey>2014</tempkey>
+        <tempkey>2008</tempkey>
+        <tempkey>2010</tempkey>
+        <tempkey>2007</tempkey>
+        <tempkey>2013</tempkey>
+        <tempkey>2015</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. Acknowledgment of the Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics National Transportation Atlas Databases (NTAD) 2015 would be appreciated in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>US Army Corps of Engineers (USACE)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>7701 Telegraph Road, Casey Bldg</address>
+          <city>Alexandria</city>
+          <state>VA</state>
+          <postal>22315-3868</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>703.428.9061</cntvoice>
+        <cntfax>703.428.6047</cntfax>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics (BTS)</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Geospatial Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntemail>answers@BTS.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>The National Waterway Network was created on behalf of the Office of the Asistant Secretary for Research and Technology's Bureau of Transportation Statistics, the U.S. Army Corps of Engineers, the U.S. Bureau of Census, and the U.S. Coast Guard by Vanderbilt University and Oak Ridge National Laboratory. Additional agencies with input into network development include Volpe National Transportation Systems Center, Maritime Administration, Military Traffic Management Command, Tennessee Valley Authority, U.S. Environmental Protection Agency, and the Federal Railroad Administration.</datacred>
+    <secinfo>
+      <secsys>none</secsys>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <crossref>
+      <citeinfo>
+        <pubdate>20120724</pubdate>
+        <title>National Transportation Atlas Databases (NTAD) 2015</title>
+        <geoform>vector digital data</geoform>
+        <onlink>&lt;http://www.bts.gov/programs/geographic_information_services/&gt;</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Attribute accuracy is tested by manual comparison of the source with hard copy printouts and/or symbolized display of digital line graphs on an interactive computer graphic system; selected attributes that cannot be visually verified on plots or on screen, are interactively queried and verified on screen.</attraccr>
+    </attracc>
+    <logic>OST-R/BTS quality checks were to cross reference the place dataset with the state dataset, to determine that the spatial data and attribute data were accurate</logic>
+    <posacc>
+      <horizpa>
+        <horizpar>The accuracy of each point element is correlated to the data source used to derive that element. For example, links and nodes derived from 1:100,000 scale Digital Line Graphs are more accurate than links and nodes derived from 1:500,000 scale NOAA Navigational Charts. Elements with an "M" in the source field (indicating an unknown or missing source) are the least accurate.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Vanderbilt Engineering Center for Transportation Operations and Research Vanderbilt University</origin>
+            <pubdate>20110101</pubdate>
+            <title>USACE Port Database</title>
+            <onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20110101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>USACE Port Database</srccitea>
+      </srcinfo>
+      <procstep>
+        <procdesc>Extraction of the USACE identified port nodes from the National Waterway Network file.</procdesc>
+        <srcused>PORT</srcused>
+        <procdate>20060101</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>23435</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.983152841195215e-009</latres>
+        <longres>8.983152841195215e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ports</enttypl>
+        <enttypd>A description of the physical and Intermodal (infrastructure) characteristics of the: coastal, Great Lakes, and inland ports of the United States.</enttypd>
+        <enttypds>USACE</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Unique Identifier</attrdef>
+        <attrdefs>BTS</attrdefs>
+        <attrdomv>
+          <udom>Numeric String</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAV_UNIT_I</attrlabl>
+        <attrdef>Alphanumeric unique identifier for a facility</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>UNLOCODE</attrlabl>
+        <attrdef>United Nations Location Code</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NAV_UNIT_N</attrlabl>
+        <attrdef>Name of facility</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LOCATION_D</attrlabl>
+        <attrdef>Textual description of the location of the facility</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FACILITY_T</attrlabl>
+        <attrdef>Facility type i.e. ('Dock', 'Fleeting Area', 'Lock and/or Dam', 'Milepoint', etc.)</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STREET_ADD</attrlabl>
+        <attrdef>Address of facility</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CITY_OR_TO</attrlabl>
+        <attrdef>City or town where facility is located</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATE_POST</attrlabl>
+        <attrdef>State where facility is located</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ZIPCODE</attrlabl>
+        <attrdef>Postal zip code</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY_NAM</attrlabl>
+        <attrdef>County name</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY_FIP</attrlabl>
+        <attrdef>The 3-character FIPS code of the County or County equivalent</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CONGRESS</attrlabl>
+        <attrdef>Congress number (i.e. 108, 109, etc.)</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CONGRESS_F</attrlabl>
+        <attrdef>Congressional District FIPS code</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>WTWY_NAME</attrlabl>
+        <attrdef>Name of waterway where facility is located</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PORT_NAME</attrlabl>
+        <attrdef>Port in which the wharf is located</attrdef>
+        <attrdefs>USACE</attrdefs>
+        <attrdomv>
+          <udom>Character String</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MILE</attrlabl>
+        <attrdef>Waterway mile of wharf location above or below a datum point</attrdef>
+        <attrdefs>USACE</attrdefs>
+        <attrdomv>
+          <udom>Number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BANK</attrlabl>
+        <attrdef>Bank of river for wharf location (Left or Right)</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LATITUDE1</attrlabl>
+        <attrdef>Latitude</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LONGITUDE1</attrlabl>
+        <attrdef>Longitude</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OPERATORS</attrlabl>
+        <attrdef>Current operators of the facility with phone and fax numbers</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OWNERS</attrlabl>
+        <attrdef>Current owner or owner/operators of the facility with phone and fax numbers</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PURPOSE</attrlabl>
+        <attrdef>Purpose for which wharf is used, including commodities handled and/or services performed</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>HIGHWAY_NO</attrlabl>
+        <attrdef>Surface road connections</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RAILWAY_NO</attrlabl>
+        <attrdef>Railway connections</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LOCATION</attrlabl>
+        <attrdef>Waterborne Commerce Statistics Center's five digit location code</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DOCK</attrlabl>
+        <attrdef>Waterborne Commerce Statistics Center's three digit dock code</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COMMODITIE</attrlabl>
+        <attrdef>List of commodities handled at the facility at the two digit Lock Performance Monitoring System level</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CONSTRUCTI</attrlabl>
+        <attrdef>Description of type of construction</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MECHANICAL</attrlabl>
+        <attrdef>Description of equipment available at the facility</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>REMARKS</attrlabl>
+        <attrdef>Remarks, including description of wharf - related storage facilities and their operators</attrdef>
+        <attrdefs>USACE</attrdefs>
+        <attrdomv>
+          <udom>Character String</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VERTICAL_D</attrlabl>
+        <attrdef>Depth/Height Datum used</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DEPTH_MIN</attrlabl>
+        <attrdef>Minimum depth alongside facility</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DEPTH_MAX</attrlabl>
+        <attrdef>Maximum depth alongside facility</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>BERTHING_L</attrlabl>
+        <attrdef>Largest single berthing space in feet</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>BERTHING_T</attrlabl>
+        <attrdef>Total berthing space in feet</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DECK_HEIGH</attrlabl>
+        <attrdef>Minimum deck height</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DECK_HEIG1</attrlabl>
+        <attrdef>Maximum deck height</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SERVICE_IN</attrlabl>
+        <attrdef>Date facility started service</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SERVICE_TE</attrlabl>
+        <attrdef>Date facility stopped service</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STFIPS</attrlabl>
+        <attrdef>State FIPS Code</attrdef>
+        <attrdefs>National Institute for Standards and Technology (NIST</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics (BTS)</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Office of Geospatial Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1200 New Jersey Ave. S.E.</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(202) 366-3282</cntvoice>
+        <cntfax>(202) 366-3640</cntfax>
+        <cntemail>answers@bts.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>National Transportation Atlas Databases (NTAD) 2015</resdesc>
+    <distliab>None</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI Shapefile</formname>
+          <formvern>2015</formvern>
+          <filedec>No compression applied. However, if using digital transfer online option, note access instructions.</filedec>
+          <transize>20.132</transize>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>dvd</offmedia>
+            <reccap>
+              <recden>650</recden>
+              <recdenu>megabytes</recdenu>
+            </reccap>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+      <ordering>Call (202-366-DATA), or E-mail (answers@bts.gov) BTS to request the National Transportation Atlas Databases (NTAD) 2015 DVD. The NTAD DVD can be ordered from the online bookstore at www.bts.gov. Individual datasets from the NTAD can also be downloaded from the Office of Geospatial Information Systems website at http://www.bts.gov/programs/geographic_information_services/</ordering>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>20110101</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metd>20150610</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics (BTS)</cntorg>
+          <cntper>Office of Geospatial Information Systems</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1200 New Jersey Ave. S.E.</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(202) 366-3282</cntvoice>
+        <cntfax>(202) 366-3640</cntfax>
+        <cntemail>answers@bts.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metscs>none</metscs>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>

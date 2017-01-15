@@ -1,0 +1,1688 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>FHWA</origin>
+        <pubdate>20110101</pubdate>
+        <title>nbi v. 7</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Washington DC</pubplace>
+          <publish>Federal Highway Administration (FHWA)</publish>
+        </pubinfo>
+        <pubinfo>
+          <pubplace>1200 New Jersey Ave. SE, Washington, DC, 20590</pubplace>
+          <publish>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics</publish>
+        </pubinfo>
+        <onlink>http://www.fhwa.dot.gov/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The NBI is a collection of information (database) describing the more than 610,000 of the Nation's bridges located on public roads, including Interstate Highways, U.S. highways, State and county roads, as well as publicly-accessible bridges on Federal lands. It presents a State by State summary analysis of the number, location, and general condition of highway bridges within each State. Please note: 11,168 records in this database were geocoded to latitude and logtitude of 0,0 due to lack of location information or errors in the reported locations.</abstract>
+      <purpose>To document the nation's bridge inventory.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20110101</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-174.182281</westbc>
+        <eastbc>0.000000</eastbc>
+        <northbc>69.150533</northbc>
+        <southbc>0.000000</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Appraisel</themekt>
+        <themekey>Appraisel</themekey>
+        <themekey>Bridges</themekey>
+        <themekey>Inventory</themekey>
+        <themekey>NGDA</themekey>
+	<themekey>National Geospatial Data Asset</themekey>
+        <themekey>Transportation Theme</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>location</themekey>
+        <themekey>structure</themekey>
+        <themekey>transportation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2011</tempkey>
+        <tempkey>2010</tempkey>
+        <tempkey>2012</tempkey>
+        <tempkey>2013</tempkey>
+        <tempkey>2014</tempkey>
+        <tempkey>2015</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The NBI database, or any portion thereof, can be freely distributed as long as this metadata entry is included with each distribution. The original metadata entry cannot be modified or deleted from any data transfer.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Federal Highway Administration</cntorg>
+        </cntorgp>
+        <cntvoice>202-366-0660</cntvoice>
+        <cntinst>Federal Highway Administration 1200 New Jersey Ave., SE Washington, DC 20590</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics</cntorg>
+          <cntper>Office of Geospatial Information Systems</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>1200 New Jersey Ave, SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntfax>202-366-3640</cntfax>
+        <cntemail>answers@bts.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <secinfo>
+      <secsys>None</secsys>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <dataqual>
+    <logic>OST-R/BTS quality checks were to cross reference the NBI dataset with an up-to-date TeleAtlas dataset, to determine that the spatial data and attribute data were accurate. For those bridges that were not matched to the TeleAtlas data, an attempt was made to use the State supplied longitude-latitude data contained in the NBI. If the resulting point fell within the State, then that location was used. If the point fell outside of the State, it is coded to longitude-latitude 0-0. See the STATUS attribute for more information.</logic>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>FHWA</origin>
+            <pubdate>20110101</pubdate>
+            <title>National Bridge Inventory</title>
+            <geoform>vector digital data</geoform>
+            <serinfo>
+              <sername>National Bridge Inventory</sername>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Washington DC</pubplace>
+              <publish>FHWA</publish>
+            </pubinfo>
+            <onlink>http://www.fhwa.dot.gov/bridge/nbi.htm</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20110101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Unknown</srccurr>
+        </srctime>
+        <srccitea>NBI</srccitea>
+      </srcinfo>
+      <procstep>
+        <procdesc>Conflated to TeleAtlas Road Network</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>610749</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.983152841195215e-009</latres>
+        <longres>8.983152841195215e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>nbi</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STFIPS</attrlabl>
+        <attrdef>State FIPS Code</attrdef>
+        <attrdefs>FHWA</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Federal Information Processing Standard- FIPS Pub 6-4</codesetn>
+            <codesets>National Institute for Standards and Technology (NIST)</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REGION</attrlabl>
+        <attrdef>The FHWA reginon in which the bride exists</attrdef>
+        <attrdefs>FHWA</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM8</attrlabl>
+        <attrdef>Structure Number</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM5A</attrlabl>
+        <attrdef>Record Type</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM5B</attrlabl>
+        <attrdef>Route Signing Prefix</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM5C</attrlabl>
+        <attrdef>Designated Level of Service</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM5D</attrlabl>
+        <attrdef>Route Number</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM5E</attrlabl>
+        <attrdef>Directional Suffix</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM2</attrlabl>
+        <attrdef>Highway Agency District</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM3</attrlabl>
+        <attrdef>County (Parish) Code	</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM4</attrlabl>
+        <attrdef>Place Code</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM6A</attrlabl>
+        <attrdef>Features Intersected	</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM6B</attrlabl>
+        <attrdef>Critical Facility Indicator</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM7</attrlabl>
+        <attrdef>Facility Carried By Structure</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM9</attrlabl>
+        <attrdef>Location</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM10</attrlabl>
+        <attrdef>Inventory Route/Min Vert Clearance</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM11</attrlabl>
+        <attrdef>Kilometerpoint</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM12</attrlabl>
+        <attrdef>Base Highway Network</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM13A</attrlabl>
+        <attrdef>LRS Inventory Route</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM13B</attrlabl>
+        <attrdef>Subroute Number</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM16</attrlabl>
+        <attrdef>Latitude</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM17</attrlabl>
+        <attrdef>Longitude</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM19</attrlabl>
+        <attrdef>Bypass/Detour Length</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM20</attrlabl>
+        <attrdef>Toll</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM21</attrlabl>
+        <attrdef>Maintenance Responsibility</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM22</attrlabl>
+        <attrdef>Owner</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM26</attrlabl>
+        <attrdef>Functional Class Of Inventory Route</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM27</attrlabl>
+        <attrdef>Year Built</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM28A</attrlabl>
+        <attrdef>Lanes On Structure</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM28B</attrlabl>
+        <attrdef>Lanes Under Structure</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM29</attrlabl>
+        <attrdef>Average Daily Traffic</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM30</attrlabl>
+        <attrdef>Year Of Average Daily Traffic</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM31</attrlabl>
+        <attrdef>Design Load</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM32</attrlabl>
+        <attrdef>Approach Roadway Width</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM33</attrlabl>
+        <attrdef>Bridge Median</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM34</attrlabl>
+        <attrdef>Skew</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM35</attrlabl>
+        <attrdef>Structure Flared</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM36A</attrlabl>
+        <attrdef>Bridge Railings</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM36B</attrlabl>
+        <attrdef>Transitions</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM36C</attrlabl>
+        <attrdef>Approach Guardrail</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM36D</attrlabl>
+        <attrdef>Approach Guardrail Ends</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM37</attrlabl>
+        <attrdef>Historical significance</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM38</attrlabl>
+        <attrdef>Navigation Control</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM39</attrlabl>
+        <attrdef>Navigation Vertical Clearance</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM40</attrlabl>
+        <attrdef>Navigation Horizontal Clearance</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM41</attrlabl>
+        <attrdef>Structure Open/Posted/Closed</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM42A</attrlabl>
+        <attrdef>Type of Service On Bridge</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM42B</attrlabl>
+        <attrdef>Type of Service Under Bridge</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM43A</attrlabl>
+        <attrdef>Kind of Material/Design</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM43B</attrlabl>
+        <attrdef>Type of Design/Construction</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM44A</attrlabl>
+        <attrdef>Kind of Material/Design</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM44B</attrlabl>
+        <attrdef>Type of Design/Construction</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM45</attrlabl>
+        <attrdef>Number Of Spans In Main Unit</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM46</attrlabl>
+        <attrdef>Number Of Approach Spans</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM47</attrlabl>
+        <attrdef>Inventory Route Total Horizontal Clearance</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM48</attrlabl>
+        <attrdef>Length Of Maximum Span</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM49</attrlabl>
+        <attrdef>Structure Length</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM50A</attrlabl>
+        <attrdef>Left Curb/Sidewalk Width</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM50B</attrlabl>
+        <attrdef>Right Curb/Sidewalk Width</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM51</attrlabl>
+        <attrdef>Bridge Roadway Width Curb-To-Curb</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM52</attrlabl>
+        <attrdef>Deck Width/Out-To-Out</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM53</attrlabl>
+        <attrdef>Minimum Vertical Clearance Over Bridge Roadway</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM54A</attrlabl>
+        <attrdef>Reference Feature</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM54B</attrlabl>
+        <attrdef>Minimum Vertical Under Clearance</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM55A</attrlabl>
+        <attrdef>Reference Feature</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM55B</attrlabl>
+        <attrdef>Minimum Lateral Under Clearance</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM56</attrlabl>
+        <attrdef>Minimum Lateral Under Clearance On Left</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM58</attrlabl>
+        <attrdef>Deck</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM59</attrlabl>
+        <attrdef>Superstructure</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM60</attrlabl>
+        <attrdef>Substructure</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM61</attrlabl>
+        <attrdef>Channel/Channel Protection</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM62</attrlabl>
+        <attrdef>Culverts</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM63</attrlabl>
+        <attrdef>Method Used To Determine Operating Rating</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM64</attrlabl>
+        <attrdef>Operating Rating</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM65</attrlabl>
+        <attrdef>Method Used To Determine Inventory Rating</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM66</attrlabl>
+        <attrdef>Inventory Rating</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM67</attrlabl>
+        <attrdef>Structural Evaluation</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM68</attrlabl>
+        <attrdef>Deck Geometry</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM69</attrlabl>
+        <attrdef>Underclear/Vertical and Horizontal</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM70</attrlabl>
+        <attrdef>Bridge Posting</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM71</attrlabl>
+        <attrdef>Waterway Adequacy</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM72</attrlabl>
+        <attrdef>Approach Roadway Alignment</attrdef>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM75A</attrlabl>
+        <attrdef>Type of Work Proposed</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM75B</attrlabl>
+        <attrdef>Work Done By</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM76</attrlabl>
+        <attrdef>Length Of Structure Improvement</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM90</attrlabl>
+        <attrdef>Inspection Date</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM91</attrlabl>
+        <attrdef>Designated Inspection Frequency</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM92A</attrlabl>
+        <attrdef>Fracture Critical Details</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM92B</attrlabl>
+        <attrdef>Underwater Inspection</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM92C</attrlabl>
+        <attrdef>Other Special Inspection</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM93A</attrlabl>
+        <attrdef>Fracture Critical Details Date</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM93B</attrlabl>
+        <attrdef>Underwater Inspection Date</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM93C</attrlabl>
+        <attrdef>Other Special Inspection Date</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM94</attrlabl>
+        <attrdef>Bridge Improvement Cost</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM95</attrlabl>
+        <attrdef>Roadway Improvement Cost</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM96</attrlabl>
+        <attrdef>Total Project Cost</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM97</attrlabl>
+        <attrdef>Year Of Improvement Cost Estimate</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM98A</attrlabl>
+        <attrdef>Neighboring State Code</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM98B</attrlabl>
+        <attrdef>Percent Responsibility</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM99</attrlabl>
+        <attrdef>Border Bridge Structure Number</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM100</attrlabl>
+        <attrdef>STRAHNET Highway Designation</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM101</attrlabl>
+        <attrdef>Parallel Structure Designation</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM102</attrlabl>
+        <attrdef>Direction Of Traffic</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM103</attrlabl>
+        <attrdef>Temporary Structure Designation</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM104</attrlabl>
+        <attrdef>Highway System Of Inventory Route</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM105</attrlabl>
+        <attrdef>Federal Lands Highways</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM106</attrlabl>
+        <attrdef>Year Reconstructed</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM107</attrlabl>
+        <attrdef>Deck Structure Type</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM108A</attrlabl>
+        <attrdef>Type of Wearing Surface</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM108B</attrlabl>
+        <attrdef>Type of Membrane</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM108C</attrlabl>
+        <attrdef>Deck Protection</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM109</attrlabl>
+        <attrdef>Average Daily Truck Traffic</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM110</attrlabl>
+        <attrdef>Designated National Network</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM111</attrlabl>
+        <attrdef>Pier/Abutment Protection</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM112</attrlabl>
+        <attrdef>NBIS Bridge Length</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM113</attrlabl>
+        <attrdef>Scour Critical Bridges</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM114</attrlabl>
+        <attrdef>Future Average Daily Traffic</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM115</attrlabl>
+        <attrdef>Year of Future Average Daily Traffic</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITEM116</attrlabl>
+        <attrdef>Minimum Navigation Vertical</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FED_AGENCY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STAT</attrlabl>
+        <attrdef>Stat</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Structurally Deficient Bridge</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Functionally Obsolete Bridge</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>null</edomv>
+            <edomvd>bridge in acceptable condition</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SR1</attrlabl>
+        <attrdef>SR1</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SR2</attrlabl>
+        <attrdef>SR2</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges</codesetn>
+            <codesets>Federal Highway Administration</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EXTRA</attrlabl>
+        <attrdef>New Status Field beign used by the FHWA.</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Not Applicable</edomvd>
+            <edomvds>Federal Highway Administration</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Structurally Deficient Bridge</edomvd>
+            <edomvds>Federal Highway Administration</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Functionally Obsolete </edomvd>
+            <edomvds>Federal Highway Administration</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATUS</attrlabl>
+        <attrdef>Status</attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>AM</edomv>
+            <edomvd>Bridge was automatically conflated to the TeleAtlas Road Network</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>MM</edomv>
+            <edomvd>Bridge was manually matched to the TeleAtlas Road Network</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>ST</edomv>
+            <edomvd>State Supplied Coordinates were used.  Not guaranteed to match any road network.</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>XX</edomv>
+            <edomvd>Bridge could not be located and is mapped to longitude-latitude 0-0.</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DATE</attrlabl>
+        <attrdef>Date - month and year of the bridge's coordinates</attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-180</rdommin>
+            <rdommax>180</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LONGDD</attrlabl>
+        <attrdef>Longitude Decimal Degrees</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-90</rdommin>
+            <rdommax>90</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LATDD</attrlabl>
+        <attrdef>Latitude Decimal Degrees</attrdef>
+        <attrdefs>Federal Highway Administration</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Geospatial Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntemail>answers@BTS.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>National Transportation Atlas Databases (NTAD) 2015</resdesc>
+    <distliab>None</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI Shapefile</formname>
+          <formvern>2015</formvern>
+          <filedec>No compression applied. However, if using digital transfer online option, note access instructions.</filedec>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>dvd</offmedia>
+            <recfmt>ISO 9660</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+      <ordering>Call (202-366-DATA), fax (202-366-3640), or E-mail (answers@bts.gov) BTS to request the National Transportation Atlas Databases (NTAD) 2015 DVD. The NTAD DVD can be ordered from the online bookstore at www.bts.gov. Individual datasets from the NTAD can also be downloaded from the Office of Geospatial Information Systems website at http://www.bts.gov/programs/geographic_information_services/</ordering>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>20110101</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metd>20150610</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Federal Highway Administration (FHWA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>Washington DC</address>
+        </cntaddr>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

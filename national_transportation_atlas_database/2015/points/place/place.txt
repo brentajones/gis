@@ -1,0 +1,805 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>National Atlas of the United States</origin>
+        <pubdate>20140301</pubdate>
+        <title>place v. 3</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Rolla, MO</pubplace>
+          <publish>National Atlas of the United States</publish>
+        </pubinfo>
+        <onlink>http://nationalatlas.gov/atlasftp-1m.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This map layer includes cities and towns in the United States, Puerto Rico, and the U.S. Virgin Islands. A city or town is a place with a recorded population, usually with at least one central area that provides commercial activities. Cities are generally larger than towns; no distinction is made between cities and towns in this map layer.</abstract>
+      <purpose>These data are intended for geographic display and analysis at the national level, and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:1,000,000-scale data. No responsibility is assumed by the National Atlas of the United States in the use of these data.</purpose>
+      <supplinf>Version 1 of this data set was produced from GNIS and Census data in 2012 but was not released. This data set replaces the earlier version. Information about National Atlas Web services can be found on the Web Map and Web Feature Services page; see http://nationalatlas.gov/infodocs/webservices.html.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140301</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-176.658071</westbc>
+        <eastbc>178.877485</eastbc>
+        <northbc>71.290555</northbc>
+        <southbc>17.712477</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Cities</themekey>
+        <themekey>Towns</themekey>
+        <themekey>Populated places</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>Society</themekey>
+        <themekey>Location</themekey>
+      </theme>
+      <place>
+        <placekt>U.S. Department of Commerce; 2013; American National Standards Institute (ANSI) Codes for States, the District of Columbia, Puerto Rico, and the Insular Areas of the United States; Washington, DC; U.S. Census Bureau; http://www.census.gov/geo/reference/ansi_statetables.html.</placekt>
+        <placekey>Vermont</placekey>
+        <placekey>Maine</placekey>
+        <placekey>U.S. Virgin Islands</placekey>
+        <placekey>New Hampshire</placekey>
+        <placekey>Oregon</placekey>
+        <placekey>Kansas</placekey>
+        <placekey>Alabama</placekey>
+        <placekey>Iowa</placekey>
+        <placekey>Alaska</placekey>
+        <placekey>Florida</placekey>
+        <placekey>New Jersey</placekey>
+        <placekey>Maryland</placekey>
+        <placekey>Michigan</placekey>
+        <placekey>Idaho</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Missouri</placekey>
+        <placekey>Texas</placekey>
+        <placekey>Virgin Islands</placekey>
+        <placekey>Arkansas</placekey>
+        <placekey>Massachusetts</placekey>
+        <placekey>Indiana</placekey>
+        <placekey>Colorado</placekey>
+        <placekey>Ohio</placekey>
+        <placekey>Illinois</placekey>
+        <placekey>Montana</placekey>
+        <placekey>Utah</placekey>
+        <placekey>Washington</placekey>
+        <placekey>South Carolina</placekey>
+        <placekey>Kentucky</placekey>
+        <placekey>Puerto Rico</placekey>
+        <placekey>Louisiana</placekey>
+        <placekey>Mississippi</placekey>
+        <placekey>Virginia</placekey>
+        <placekey>Nebraska</placekey>
+        <placekey>New Mexico</placekey>
+        <placekey>North Carolina</placekey>
+        <placekey>West Virginia</placekey>
+        <placekey>Delaware</placekey>
+        <placekey>Wyoming</placekey>
+        <placekey>Arizona</placekey>
+        <placekey>New York</placekey>
+        <placekey>Connecticut</placekey>
+        <placekey>South Dakota</placekey>
+        <placekey>Wisconsin</placekey>
+        <placekey>Oklahoma</placekey>
+        <placekey>Georgia</placekey>
+        <placekey>Tennessee</placekey>
+        <placekey>District of Columbia</placekey>
+        <placekey>Rhode Island</placekey>
+        <placekey>California</placekey>
+        <placekey>Minnesota</placekey>
+        <placekey>North Dakota</placekey>
+        <placekey>Nevada</placekey>
+        <placekey>Hawaii</placekey>
+      </place>
+      <place>
+        <placekt>Organization for International Standards, 2008, ISO 3166 Country Codes, http://www.iso.org/iso/country_names_and_code_elements.</placekt>
+        <placekey>US</placekey>
+        <placekey>United States</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>USA</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2010</tempkey>
+        <tempkey>2014</tempkey>
+        <tempkey>2015</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. Acknowledgment of The National Atlas of the United States of America would be appreciated in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>National Atlas of the United States</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>12201 Sunrise Valley Drive</address>
+          <address>U.S. Geological Survey</address>
+          <address>511 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-ASK-USGS (1-888-275-8747)</cntvoice>
+        <cntemail>atlasmail@usgs.gov</cntemail>
+        <cntinst>For questions about this map layer or metadata, please contact the National Atlas using the information above, or through the U.S. Geological Survey contact page at http://www.usgs.gov/ask/. For distribution questions, please see the Distribution Information elsewhere in this metadata.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics (BTS)</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Geospatial Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntemail>answers@BTS.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <dataqual>
+    <logic>The map layer was checked for topological consistency using ArcGIS. No other checks for logical consistency were performed on this map layer.</logic>
+    <complete>This map layer includes cities and towns in the 50 United States, the District of Columbia, Puerto Rico, and the U.S. Virgin Islands.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>20121204</pubdate>
+            <title>Geographic Names Information System, State Files with Federal Codes - NationalFedCodes20121204.zip</title>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://geonames.usgs.gov/domestic/download_data.htm</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20120101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>GNIS</srccitea>
+        <srccontr>Spatial and attribute information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Systems Research Institute - ESRI</origin>
+            <pubdate>20090101</pubdate>
+            <title>ESRI USA Topo Maps Map Service</title>
+            <geoform>Raster digital data</geoform>
+            <onlink>http://www.esri.com/software/arcgis/arcgisonline/maps/maps-and-map-layers</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>100000</srcscale>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20090101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>USA Topo Maps Map Service 100K</srccitea>
+        <srccontr>Spatial and attribute information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>unknown</pubdate>
+            <title>1:500,000-Scale State Base Map Series</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>500000</srcscale>
+        <typesrc>hardcopyPaper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>State Base Maps 1:500K</srccitea>
+        <srccontr>Spatial and attribute information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Census Bureau</origin>
+            <pubdate>20120101</pubdate>
+            <title>U.S. Census Bureau National Places Gazetteer Files</title>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>United States Census Bureau, U.S. Department of Commerce; Office of the Assistant Secretary for Research and Technology, Bureau of Transportation Statistics (OST-R/BTS)</publish>
+            </pubinfo>
+            <onlink>http://www.census.gov/geo/maps-data/data/gazetteer2010.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20100101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Ground condition</srccurr>
+        </srctime>
+        <srccitea>2010Census_Gazetteer</srccitea>
+        <srccontr>Spatial and attribute information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Atlas of the United States</origin>
+            <pubdate>20040201</pubdate>
+            <title>Cities and Towns of the United States</title>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>National Atlas of the United States</publish>
+            </pubinfo>
+            <onlink>http://www.nationalatlas.gov/atlasftp.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19720101</begdate>
+              <enddate>20040101</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground condition</srccurr>
+        </srctime>
+        <srccitea>2M_Cities</srccitea>
+        <srccontr>Spatial and attribute information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>State Transportation Departments</origin>
+            <pubdate>unknown</pubdate>
+            <title>(variable) Official State Highway Maps</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>hardcopyPaper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Official State Highway Maps</srccitea>
+        <srccontr>Spatial and attribute information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>unknown</pubdate>
+            <title>1:24,000-Scale Topographic Map Series</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>hardcopyPaper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Paper Topo Maps 1:24K</srccitea>
+        <srccontr>Spatial and attribute information.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>City and town names from GNIS were modified to remove the feature type from the name; the resulting name was used for all features taken from GNIS. For features that came from 2010Census_Gazetteer, the Census name was used. Remaining names were taken from the State base maps, topographic maps, or State highway maps. Name discrepancies were sent to the GNIS and were resolved by their personnel. Some features are included in GNIS both as "populated places" and as "census" or "civil" feature types. Duplicate features were identified and the "populated places" were deleted from the data. Population data were added to the file from 2010Census_Gazetteer. A final quality-control review was done and some city locations and names were adjusted based on information from State Base Maps 1:500K, USA Topo Maps Map Service 100K, and Official State Highway Maps.</procdesc>
+        <srcused>GNIS</srcused>
+        <srcused>State Base Maps 1:500K</srcused>
+        <srcused>USA Topo Maps Map Service 100K</srcused>
+        <srcused>Official State Highway Maps</srcused>
+        <srcused>2010Census_Gazetteer</srcused>
+        <procdate>20140101</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The data sets were all loaded into ArcGIS. The GNIS data are considered the most authoritative source, and the Census data are considered the next most authoritative source. The 2M_Cities and GNIS data were compared. Cities that were included in both sources were identified and added to the data set, using the location from GNIS. The 2010Census_Gazetteer and GNIS data were compared. Cities that were included in both sources were identified and added to the data set, using the location from GNIS. The 2010Census_Gazetteer and 2M_Cities data were compared. Cities that were included in both sources but that were not in GNIS were added to the data set, using the location from 2010Census_Gazetteer. The result was a file that included all the cities and towns from 2010Census_Gazetteer, as well as some other cities and towns. If there was a GNIS position available, that was used; if no GNIS position was available the Census position was used. Attribute fields were updated as necessary. The attribute GNIS_ID was added from GNIS to identify all populated places and any other cities or towns that were in GNIS. The attribute ANSICODE was added to all cities or towns that were in the 2010Census_Gazetteer; included are most of the cities designated as "census" or "civil" in GNIS. There are some "census" and "civil" points in GNIS that are not in 2010Census_Gazetteer; for these locations the ANSICODE was set to -999. Locations that came from sources other than GNIS or 2010Census_Gazetteer have a value of -999 for both GNIS_ID and ANSICODE. Some elevation values were added from topographic map sources.</procdesc>
+        <srcused>GNIS</srcused>
+        <srcused>2M_Cities</srcused>
+        <srcused>2010Census_Gazetteer</srcused>
+        <srcused>Paper Topo Maps 1:24K</srcused>
+        <procdate>20140101</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>U.S. Department of Commerce; 2013; American National Standards Institute (ANSI) Codes for States, the District of Columbia, Puerto Rico, and the Insular Areas of the United States; U.S. Census Bureau. U.S. Department of Commerce; 2009; ANSI Codes for the Identification of Counties and Equivalent Areas of the United States, Puerto Rico, and the Insular Areas; U.S. Census Bureau.</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>38186</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.983152841195215e-009</latres>
+        <longres>8.983152841195215e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>place</enttypl>
+        <enttypd>
+A city or town in the United States, Puerto Rico, or the U.S. Virgin Islands.   A city or town is
+a place with a recorded population, usually with at least one central area that provides
+commercial activities.  Cities are generally larger than towns; no distinction is made between
+cities and towns in this map layer.
+</enttypd>
+        <enttypds>National Atlas of the United States</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>The representation of the entity in the data.</attrdef>
+        <attrdefs>National Atlas of the United States</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Point</edomv>
+            <edomvd>0-dimensional element</edomvd>
+            <edomvds>ESRI GIS software</edomvds>
+          </edom>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Gnis_id</attrlabl>
+        <attrdef>
+A unique identification number assigned by the Geographic Names Information System (GNIS).  This
+number can be used to link places in this data set with GNIS.
+</attrdef>
+        <attrdefs>National Atlas of the United States</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>-999</edomv>
+            <edomvd>No GNIS identification number is available.</edomvd>
+            <edomvds>National Atlas of the United States</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>516</rdommin>
+            <rdommax>2727439</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ansicode</attrlabl>
+        <attrdef>
+A unique identification number assigned by the U.S. Census Bureau.  This number can be used to
+link places in this data set with the Census Gazetteer data.
+</attrdef>
+        <attrdefs>National Atlas of the United States</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>-999</edomv>
+            <edomvd>No Census Bureau identification number is available.</edomvd>
+            <edomvds>National Atlas of the United States</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>408990</rdommin>
+            <rdommax>2634654</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Feature</attrlabl>
+        <attrdef>The type of feature, as assigned by GNIS.</attrdef>
+        <attrdefs>National Atlas of the United States</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Census</edomv>
+            <edomvd>
+A statistical area delineated locally specifically for the tabulation of Census Bureau data
+(Census designated place, census county division, unorganized territory, various types of
+American Indian/Alaska Native statistical areas.)  Distinct from Civil and Populated Place.
+</edomvd>
+            <edomvds>GNIS</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Civil</edomv>
+            <edomvd>
+A political division formed for administrative purposes (borough, county, incorporated place,
+municipio, parish, town, township.)  Distinct from Census and Populated Place.
+</edomvd>
+            <edomvds>GNIS</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Locale</edomv>
+            <edomvd>
+Place at which there is or was human activity; it does not include populated places, mines,
+and dams (battlefield, crossroad, camp, farm, ghost town, landing, railroad siding, ranch,
+ruins, site, station, windmill.)
+</edomvd>
+            <edomvds>GNIS</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Place</edomv>
+            <edomvd>A city or town found in local sources but that is not in either GNIS or the Census gazetteer.</edomvd>
+            <edomvds>National Atlas of the United States</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Populated Place</edomv>
+            <edomvd>
+Place or area with clustered or scattered buildings and a permanent human population (city,
+settlement, town, village.)  A populated place is usually not incorporated and by definition
+has no legal boundaries.  However, a populated place may have a corresponding "civil" record,
+the legal boundaries of which may or may not coincide with the perceived populated place.
+Distinct from Census and Civil classes.
+</edomvd>
+            <edomvds>GNIS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Feature2</attrlabl>
+        <attrdef>The status of the city or town</attrdef>
+        <attrdefs>National Atlas of the United States</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>-999</edomv>
+            <edomvd>The city or town does not have a status designation.</edomvd>
+            <edomvds>National Atlas of the United States</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>County Seat</edomv>
+            <edomvd>A place that serves as the seat of the county government.</edomvd>
+            <edomvds>National Atlas of the United States</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>National Capital</edomv>
+            <edomvd>A place that serves as the seat of the national government of the United States of America.</edomvd>
+            <edomvds>National Atlas of the United States</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>State Capital</edomv>
+            <edomvd>A place that serves as the seat of the State government.</edomvd>
+            <edomvds>National Atlas of the United States</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>State Capital County Seat</edomv>
+            <edomvd>A place that serves as the seat of both the State government and the county government.</edomvd>
+            <edomvds>National Atlas of the United States</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>The name of the city or town.</attrdef>
+        <attrdefs>National Atlas of the United States</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Geographic Names Information System</codesetn>
+            <codesets>U.S. Board on Geographic Names</codesets>
+          </codesetd>
+        </attrdomv>
+        <attrdomv>
+          <udom>There is no predetermined set of official names for cities and towns that are not in GNIS.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pop_2010</attrlabl>
+        <attrdef>
+The 2010 population of the city or town.  Locations with a population of 0 are listed as such in
+the Census source data.
+</attrdef>
+        <attrdefs>National Atlas of the United States</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>-999</edomv>
+            <edomvd>No population information is available for the city or town.</edomvd>
+            <edomvds>National Atlas of the United States</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>8175133</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+        <attrdef>The name of the county or county equivalent where the city or town is located.</attrdef>
+        <attrdefs>National Atlas of the United States</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>
+American National Standards Institute (ANSI) Codes for the Identification of Counties and
+Equivalent Areas of the United States, Puerto Rico, and the Insular Areas
+</codesetn>
+            <codesets>U.S. Department of Commerce, U.S. Census Bureau</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Countyfips</attrlabl>
+        <attrdef>The 3-digit FIPS code of the county or county equivalent.</attrdef>
+        <attrdefs>National Atlas of the United States</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>
+ANSI Codes for the Identification of Counties and Equivalent Areas of the United States,
+Puerto Rico, and the Insular Areas
+</codesetn>
+            <codesets>U.S. Department of Commerce, U.S. Census Bureau</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State</attrlabl>
+        <attrdef>The 2-character abbreviation for the State in which the city or town is located.</attrdef>
+        <attrdefs>National Atlas of the United States</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>
+ANSI Codes for States, the District of Columbia, Puerto Rico, and the Insular Areas of the
+United States
+</codesetn>
+            <codesets>U.S. Department of Commerce, U.S. Census Bureau</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State_fips</attrlabl>
+        <attrdef>The 2-digit FIPS code for the State in which the city or town is located.</attrdef>
+        <attrdefs>National Atlas of the United States</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>
+ANSI Codes for States, the District of Columbia, Puerto Rico, and the Insular Areas of the
+United States.
+</codesetn>
+            <codesets>U.S. Department of Commerce, U.S. Census Bureau</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+        <attrdef>The latitude of the city or town as it appears in this data set.</attrdef>
+        <attrdefs>National Atlas of the United States</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>17.7124746</rdommin>
+            <rdommax>71.2905556</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+        <attrdef>The longitude of the city or town as it appears in this data set.</attrdef>
+        <attrdefs>National Atlas of the United States</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-176.6580556</rdommin>
+            <rdommax>178.8775999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PopPlLat</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PopPlLong</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Elev_in_m</attrlabl>
+        <attrdef>
+The elevation, in meters, of the city or town. Determined from GNIS or from topographic map
+sources.
+</attrdef>
+        <attrdefs>National Atlas of the United States</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-68</rdommin>
+            <rdommax>3457</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Elev_in_ft</attrlabl>
+        <attrdef>
+The elevation, in meters, of the city or town.  Determined from GNIS or from topographic map
+sources.
+</attrdef>
+        <attrdefs>National Atlas of the United States</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-223</rdommin>
+            <rdommax>11342</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Earth Explorer, U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>47914 252nd Street</address>
+          <address>U.S. Geological Survey</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198-0001</postal>
+        </cntaddr>
+        <cntvoice>866-573-3222</cntvoice>
+        <cntvoice>605-594-6116</cntvoice>
+        <cntemail>custserv@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made by the U.S. Geological Survey regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. No responsibility is assumed by the U.S. Geological Survey in the use of these data.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Web Map Service (WMS)</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://webservices.nationalatlas.gov/wms/mapreference?SERVICE=WMS&amp;REQUEST=GetCapabilities</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://webservices.nationalatlas.gov/wms/1million?SERVICE=WMS&amp;REQUEST=GetCapabilities</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://webservices.nationalatlas.gov/wms?SERVICE=WMS&amp;REQUEST=GetCapabilities</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://nationalatlas.gov/atlasftp-1m.html</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://nationalatlas.gov/atlasftp-1m.html</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://webservices.nationalatlas.gov/arcgis/services/citiesx010g/MapServer/WFSServer?SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://webservices.nationalatlas.gov/arcgis/services/citiesx010g/MapServer/WFSServer?SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=GetCapabilities</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://webservices.nationalatlas.gov/arcgis/services/citiesx010g/MapServer/WFSServer?SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=GetFeature&amp;TypeName=citiesx010g</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20150610</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>National Atlas of the United States</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>12201 Sunrise Valley Drive</address>
+          <address>U.S. Geological Survey</address>
+          <address>511 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-ASK-USGS (1-888-275-8747)</cntvoice>
+        <cntemail>atlasmail@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metscs>None</metscs>
+      <metsc>Unclassified</metsc>
+      <metshd>None</metshd>
+    </metsi>
+  </metainfo>
+</metadata>

@@ -1,0 +1,528 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Travel Monitoring Analysis System (tmas) Automatic Traffic Recorder (ATR) Stations v. 2</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The data included in the GIS Traffic Stations Version database have been collected by the FHWA from the State DOTs. Location referencing information was derived from State Offices of Transportation. The attributes on the point elements of the database are used by FHWA for its Travel Monitoring and Analysis System and by State DOTs. The attributes for these databases have been intentionally limited to location referencing attributes since the core station description attribute data are contained within the Station Description Tables (SDT). There is a separate Station Description Table (SDT) for each of the station types. The attributes in the Station Description Table correspond with the Station Description Record found in Chapter 6 of the 2001 Traffic Monitoring Guide. The SDT contains the most recent stations available for each state and station type. This table was derived from files provided UTCTR by FHWA. The Station Description Table can be linked to the station shapefile via the STNNKEY field.</abstract>
+      <purpose>Data from CCS (continuous count station) stations (recorded in this database) are used in the Travel Monitoring Analysis System (TMAS) to process the continuous traffic data and produce the monthly Traffic Volume Trends report. TMAS is also used to process the vehicle classification and truck weight data collected as part of the annual Truck Weight Study. Both are microcomputer database management systems that process, quality control, validate, summarize, and maintain traffic data. TMAS is a limited access system to be mainly used by State DOT's with data in the formats described in this section and can be retrieved from the FHWA by contacting staff listed at the following web site at http://www.fhwa.dot.gov/ohim.htm The data collection program has been approved by the Office of Management and Budget, OMB # 2125-0587, and has a current expiration date of April 30, 2018.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-161.770413</westbc>
+        <eastbc>-67.390250</eastbc>
+        <northbc>64.960134</northbc>
+        <southbc>19.423480</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>TMAS</themekey>
+        <themekey>National</themekey>
+        <themekey>Stations</themekey>
+        <themekey>Vehicle Monitoring</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2014</tempkey>
+        <tempkey>2012</tempkey>
+        <tempkey>2013</tempkey>
+        <tempkey>2015</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Geospatial Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntemail>answers@BTS.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>FHWA</cntorg>
+          <cntper>Steve Jessberger</cntper>
+        </cntorgp>
+        <cntpos>Program Manager</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+        </cntaddr>
+        <cntvoice>202-366-5052</cntvoice>
+        <cntemail>steven.jessberger@dot.gov</cntemail>
+        <cntinst>Program manager of Travel Monitoring Analysis System (TMAS)</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>6723</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.983152841195215e-009</latres>
+        <longres>8.983152841195215e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>tmas</enttypl>
+        <enttypd>Points</enttypd>
+        <enttypds>Federal Highway Administration</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>internal feature number</attrdef>
+        <attrdefs>esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the feature.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+        <attrdef>Longitude of the station location with the west hemisphere assumed and decimal place understood as XXX.XXX XXX</attrdef>
+        <attrdefs>fhwa</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+        <attrdef>Latitude of the station location with the north hemisphere assumed and decimal place understood as XX.XXX XXX.
+
+</attrdef>
+        <attrdefs>fhwa</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Station_Id</attrlabl>
+        <attrdef>This field contains an alphanumeric designation for the station where the survey data are collected. 
+
+</attrdef>
+        <attrdefs>FHWA - traffic monitoring guide</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DIR</attrlabl>
+        <attrdef>The direction of travel is coded with one direction per site.</attrdef>
+        <attrdefs>FHWA</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>North</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Northeast</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>East</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Southeast</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>South</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Southwest</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>West</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Nothwest</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>North South or Northeast Southwest combined (ATR stations only)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>East West or Southeast Northwest combined (ATR stations only)</edomvd>
+            <edomvds>FHWA </edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LN</attrlabl>
+        <attrdef>Either each lane is considered a separate station or all lanes in each direction are combined.</attrdef>
+        <attrdefs>FHWA</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Data with lanes combined</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Outside (rightmost) lane</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>2-9</edomv>
+            <edomvd>Other lanes</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YR</attrlabl>
+        <attrdef>Code the last two digits of the year in which the data were collected.</attrdef>
+        <attrdefs>FHWA</attrdefs>
+        <attrdomv>
+          <udom>Numeric domain</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FC</attrlabl>
+        <attrdef>Functional Road Classification</attrdef>
+        <attrdefs>FHWA</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1R</edomv>
+            <edomvd>Principal Arterial - Interstate (rural)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>2R</edomv>
+            <edomvd>Other Freeways and Expressways (rural)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>3R</edomv>
+            <edomvd>Principal Arterial - Other (rural)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>4R</edomv>
+            <edomvd>Minor Arterial (rural)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>5R</edomv>
+            <edomvd>Major Collector (rural)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>6R</edomv>
+            <edomvd>Minor Collector (rural)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>7R</edomv>
+            <edomvd>Local System (rural)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>1U</edomv>
+            <edomvd>Principal Arterial - Interstate (urban)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>2U</edomv>
+            <edomvd>Principal Arterial - Other Freeways or Expressways (urban)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>3U</edomv>
+            <edomvd>Principal Arterial - Other (urban)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>4U</edomv>
+            <edomvd>Major Collector (urban)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>5U</edomv>
+            <edomvd>Minor Arterial (urban)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>6U</edomv>
+            <edomvd>Collector (urban)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>7U</edomv>
+            <edomvd>Local System (urban)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Number_Lan</attrlabl>
+        <attrdef>The number of lanes in one direction at the site. "9" if there are more than eight lanes.</attrdef>
+        <attrdefs>FHWA</attrdefs>
+        <attrdomv>
+          <udom>Numeric domain</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Type</attrlabl>
+        <attrdef>Traffic counting device</attrdef>
+        <attrdefs>FHWA</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>VOL</edomv>
+            <edomvd>Volume only traffic counting site</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>CLS</edomv>
+            <edomvd>Classification site (produces volume data too)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>WGT</edomv>
+            <edomvd>Weigh-in-Motion site (produces classification and volume too)</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LanesofVOL</attrlabl>
+        <attrdef>The number of lanes in one direction that are monitored at this site. "9" if there are more than eight lanes.</attrdef>
+        <attrdefs>FHWA</attrdefs>
+        <attrdomv>
+          <udom>Numeric domain</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LanesofCLS</attrlabl>
+        <attrdef>The number of lanes in one direction that are monitored for vehicle classification at this site. "9" if there are more than eight lanes.</attrdef>
+        <attrdefs>FHWA</attrdefs>
+        <attrdomv>
+          <udom>Numeric domain</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LanesofWGT</attrlabl>
+        <attrdef>The number of lanes in one direction that are monitored for truck weight at this site. "9" if there are more than eight lanes.</attrdef>
+        <attrdefs>FHWA</attrdefs>
+        <attrdomv>
+          <udom>Numeric domain</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YR1</attrlabl>
+        <attrdef>Code the last two digits of the appropriate year when this site was established (if known).</attrdef>
+        <attrdefs>FHWA</attrdefs>
+        <attrdomv>
+          <udom>Numeric domain</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YearDisc</attrlabl>
+        <attrdef>Code the last two digits of the appropriate year when the site last provided data (if known).</attrdef>
+        <attrdefs>FHWA</attrdefs>
+        <attrdomv>
+          <udom>Numeric domain</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+        <attrdef>Three-digit FIPS county code</attrdef>
+        <attrdefs>NIST</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Federal Information Processing Standard (FIPS), Publication 6-4</codesetn>
+            <codesets>National Institute for Standards and Technology (NIST)</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HPMS</attrlabl>
+        <attrdef>HPMS Sample Type</attrdef>
+        <attrdefs>FHWA</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>No, not on an HPMS standard sample section</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes, on an HPMS standard sample section</edomvd>
+            <edomvds>FHWA</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HPMS_ID</attrlabl>
+        <attrdef>HMPS Sample Identifier. If the station is on an HPMS standard sample section, the HPMS Sample Identifier is coded per the HPMS Field Manual (Item 47).</attrdef>
+        <attrdefs>FHWA</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Alt_Name_I</attrlabl>
+        <attrdef>Station's alternate name. This only applies to the State of Maine and will be updated in the near future.</attrdef>
+        <attrdefs>FHWA</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STPOSTAL</attrlabl>
+        <attrdef>U.S. Postal Service two letter state abbreviation.</attrdef>
+        <attrdefs>USPS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Official List of State Postal Abbreviations</codesetn>
+            <codesets>U.S. Postal Service</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STFIPS</attrlabl>
+        <attrdef>State FIPS code</attrdef>
+        <attrdefs>NIST</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Federal Information Processing Standard (FIPS), Publication 6-4</codesetn>
+            <codesets>National Institute for Standards and Technology (NIST)</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>FHWA</cntorg>
+          <cntper>Steve Jessberger</cntper>
+        </cntorgp>
+        <cntpos>Program Manager</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+        </cntaddr>
+        <cntvoice>202-366-5052</cntvoice>
+        <cntemail>steven.jessberger@dot.gov</cntemail>
+        <cntinst>Program manager of Travel Monitoring Analysis System (TMAS)</cntinst>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Geospatial Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntemail>answers@BTS.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>National Transportation Atlas Databases (NTAD) 2015</resdesc>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI Shapefile</formname>
+          <formvern>2015</formvern>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>dvd</offmedia>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <ordering>Call (202-366-DATA), or E-mail (answers@bts.gov) BTS to request the National Transportation Atlas Databases (NTAD) 2015 DVD. The NTAD DVD can be ordered from the online bookstore at www.bts.gov. Individual datasets from the NTAD can also be downloaded from the Office of Geospatial Information Systems website at http://www.bts.gov/programs/geographic_information_services/</ordering>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20150610</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>FHWA</cntorg>
+          <cntper>Steve Jessberger</cntper>
+        </cntorgp>
+        <cntpos>Program Manager</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+        </cntaddr>
+        <cntvoice>202-366-5052</cntvoice>
+        <cntemail>steven.jessberger@dot.gov</cntemail>
+        <cntinst>Program manager of Travel Monitoring Analysis System (TMAS)</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

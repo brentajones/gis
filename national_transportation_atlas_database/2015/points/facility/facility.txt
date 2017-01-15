@@ -1,0 +1,1160 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>20030101</pubdate>
+        <title>facility v. 1</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This is a public dataset for the Department of Transportation, Office of the Assistant Secretary for Research and Technology's Bureau of Transportation Statistics. The public database consists of four tables. One of the tables is a spatial table: INTERMODAL_FACILITY. The three other tables consist of attribute data for the database: INTERMODAL_CARGO, INTERMODAL_COMMODITY and INTERMODAL_DIRECTIONALITY. This database was based on the requirements from the Commodity Flow Survey and with the different modes of DOT, supervised by OST-R/BTS. The database will extend its design to support all of the modes within the DOT and in reference to modes involved with Intermodal transfer.</abstract>
+      <purpose>This is a public dataset for the Department of Transportation, Office of the Assistant Secretary for Research and Technology's Bureau of Transportation Statistics for internal use in GIS efforts. The data can be utilized alone or in conjunction with various networks developed for the data.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20110101</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>August 2002</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-165.436110</westbc>
+        <eastbc>-66.002000</eastbc>
+        <northbc>64.807090</northbc>
+        <southbc>18.439000</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geographical Reference</themekt>
+        <themekey>Point</themekey>
+      </theme>
+      <theme>
+        <themekt>Transference</themekt>
+        <themekey>Transportation</themekey>
+        <themekey>NGDA</themekey>
+	<themekey>National Geospatial Data Asset</themekey>
+        <themekey>Transportation Theme</themekey>
+      </theme>
+      <theme>
+        <themekt>Transference Presence</themekt>
+        <themekey>Transfer Locations</themekey>
+      </theme>
+      <theme>
+        <themekt>Transport Amenities</themekt>
+        <themekey>Intermodal Facility</themekey>
+      </theme>
+      <theme>
+        <themekt>Transport</themekt>
+        <themekey>Intermodal</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>transportation</themekey>
+        <themekey>location</themekey>
+        <themekey>economy</themekey>
+        <themekey>structure</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>United States of America</placekey>
+        <placekey>USA</placekey>
+      </place>
+      <stratum>
+        <stratkt>None</stratkt>
+        <stratkey>ground</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2007</tempkey>
+        <tempkey>2010</tempkey>
+        <tempkey>2011</tempkey>
+        <tempkey>2009</tempkey>
+        <tempkey>2003</tempkey>
+        <tempkey>2008</tempkey>
+        <tempkey>2006</tempkey>
+        <tempkey>2012</tempkey>
+        <tempkey>2013</tempkey>
+        <tempkey>2014</tempkey>
+        <tempkey>2015</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>The access of this data is not restricted.</accconst>
+    <useconst>None. Acknowledgment of the Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics (BTS) National Transportation Atlas Databases (NTAD) 2015 would be appreciated in products derived from these data. http://www.bts.gov/programs/geographic_information_services/</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics (BTS)</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Office of Geospatial Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1200 New Jersey Ave. S.E.</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntemail>answers@bts.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <crossref>
+      <citeinfo>
+        <pubdate>20120724</pubdate>
+        <title>National Transportation Atlas Databases (NTAD) 2015</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <logic>A single coordinate pair for GIS reference represents all points. A unique id number relates the records to other tables. A parent id is required, which may be used to aggregate to its facility, which is the granularity of the publicly released data.</logic>
+    <complete>All records require geocoding, mode type, facility type, unique name combination, and unique id to be included in the final dataset.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Geocode source holds the source of the spatial coordinates, particular sources have varying spatial accuracy and is noted below.</horizpar>
+        <qhorizpa>
+          <horizpav>1:100,000</horizpav>
+          <horizpae>GDT98Streets: - The original digital source of line segment, such as a Census Bureau 1980 GBF/DIME File or a USGS 1:100,000 scale DLG-3. - Scale 1: 24,000 - For line segments that originated with the USGS DLG-3 files, the FCC is based on the USGS classification code in the DLG-3 file. For line segments that originated with the 1980 GBF / DIME Files, the FCC is based on the NS code and other feature identification content of the GBF/DIME -File. - Latitude/longitude Data: except for DIME format (ASCII) boundary files, all latitude and longitude coordinates are signed and have six decimal places. Northern latitude is positive (0 degrees to 90 degrees), southern latitude is negative (0 degrees to -90 degrees). West longitude are negative (0 degrees to -180 degrees), and longitude are positive (0 degrees to 180 degrees) - DIME format boundary file coordinates are expressed as all positive values with six implied decimal places. Any longitude west of 180 degrees is expressed in increasing, rather than decreasing values. Projection using latitude/longitude coordinate values with an implied 6 decimal places All coordinates are based on the 1983 North American Datum (NAD83). - As new streets are reported, they are added daily by digital map technicians (DMTs) working in teams assigned to specific geographic areas covering the entire nation. As DMTs work through their particular regions, they concentrate on areas that contain the largest numbers of missing addresses, usually newly developed areas. They apply address ranges to unaddressed street segments, digitized new streets, correct inaccurate segment shapes, and add exits and turn or one-way restrictions. Each addition is verified with current maps and other data. - ARC/INFO format products are available in double precision. Precision refers to the number of bits (single - 32bits, double - 64 bits) used to store coordinate data. Coverages in double precision are slightly more accurate, but larger than those in single precision. For more detailed information please see Geographic Data Technology Inc. 1(800) 331.7881 or email to info@gdt1.com</horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>American Authority Port Association</origin>
+            <pubdate>unknown</pubdate>
+            <title>American Authority Port Association</title>
+            <onlink>www.aapa-ports.org</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>AAPA</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Primedia Information Inc. 2002</origin>
+            <pubdate>20020101</pubdate>
+            <title>The Official Railway Guide. Freight Service Edition</title>
+            <othercit>Bi-Monthly</othercit>
+            <onlink>www.primedia.com</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>hardcopyPaper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality. This publication is biannual.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>AIR CARGO WORLD ONLINE/2002 AIRPORT DIRECTORY</origin>
+            <pubdate>unknown</pubdate>
+            <title>AIR CARGO WORLD ONLINE/2002 AIRPORT DIRECTORY</title>
+            <onlink>www.aircargoworld.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>AIR CARGO WORLD ONLINE/2001 AIR EXPRESS DIRECTORY</origin>
+            <pubdate>unknown</pubdate>
+            <title>AIR CARGO WORLD ONLINE/2001 AIR EXPRESS DIRECTORY</title>
+            <onlink>www.aircargoworld.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>hardcopyPaper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>AIR CANADA CARGO</origin>
+            <pubdate>unknown</pubdate>
+            <title>AIR CANADA CARGO</title>
+            <onlink>www.aircanada.ca/cargo/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Aberdeen and Rockfish</origin>
+            <pubdate>unknown</pubdate>
+            <title>Aberdeen and Rockfish</title>
+            <onlink>www.aberdeen-rockfish.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>THE RAIL-BRIDGE CORPORATION</origin>
+            <pubdate>unknown</pubdate>
+            <title>THE RAIL-BRIDGE CORPORATION</title>
+            <onlink>www.railbridge.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>AMERICAN TRANS AIR</origin>
+            <pubdate>unknown</pubdate>
+            <title>AMERICAN TRANS AIR</title>
+            <onlink>www.ata.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>PORT OF INDIANA</origin>
+            <pubdate>unknown</pubdate>
+            <title>PORT OF INDIANA</title>
+            <onlink>http://www.portsofindiana.com/?pageRef=87</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>AIR JAMAICA</origin>
+            <pubdate>unknown</pubdate>
+            <title>AIR JAMAICA</title>
+            <onlink>www.airjamaica.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>OMNITRAX</origin>
+            <pubdate>unknown</pubdate>
+            <title>OMNITRAX</title>
+            <onlink>www.omnitrax.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>MARYLAND PORT AUTHORITY</origin>
+            <pubdate>unknown</pubdate>
+            <title>MARYLAND PORT AUTHORITY</title>
+            <onlink>www.mpa.state.md.us/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>MPA</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Army Corp of Engineers</origin>
+            <pubdate>20010101</pubdate>
+            <title>NDC Publications and U.S. Waterway Data (Port Report)</title>
+            <edition>7</edition>
+            <onlink>www.hecsa.usace.army.mil/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>USACE</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>PORT OF OAKLAND</origin>
+            <pubdate>unknown</pubdate>
+            <title>PORT OF OAKLAND</title>
+            <onlink>http://www.portofoakland.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>AIR CARGO WORLD ONLINE/2002 FORWARDER DIRECTORY</origin>
+            <pubdate>unknown</pubdate>
+            <title>AIR CARGO WORLD ONLINE/2002 FORWARDER DIRECTORY</title>
+            <onlink>www.aircargoworld.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>INTERMODAL CARTAGE COMPANY</origin>
+            <pubdate>unknown</pubdate>
+            <title>INTERMODAL CARTAGE COMPANY</title>
+            <onlink>www.imcg.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>IMCG</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>CANADIAN NATIONAL</origin>
+            <pubdate>unknown</pubdate>
+            <title>CANADIAN NATIONAL</title>
+            <onlink>www.cn.ca/index.shtml</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>CN</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>ARKANSAS - MISSOURI RAIL ROAD</origin>
+            <pubdate>unknown</pubdate>
+            <title>ARKANSAS - MISSOURI RAIL ROAD</title>
+            <onlink>www.arkansasmissouri-rr.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>ANACOSTIA AND PACIFIC COMPANY, INC.</origin>
+            <pubdate>unknown</pubdate>
+            <title>ANACOSTIA AND PACIFIC COMPANY, INC.</title>
+            <onlink>www.anacostia.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>PACIFIC HARBOR LINE, INC.</origin>
+            <pubdate>unknown</pubdate>
+            <title>PACIFIC HARBOR LINE, INC.</title>
+            <onlink>http://www.anacostia.com/phl/faciliti.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>FEDRAL MOTOR CARRIER SAFTEY ADMINISTRATION</origin>
+            <pubdate>unknown</pubdate>
+            <title>FEDRAL MOTOR CARRIER SAFTEY ADMINISTRATION</title>
+            <onlink>http://www.dot.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>MODALGISTICS</origin>
+            <pubdate>unknown</pubdate>
+            <title>MODALGISTICS</title>
+            <onlink>http://www.modalgistics.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>VIRGINIA PORT AUTHORITY</origin>
+            <pubdate>unknown</pubdate>
+            <title>VIRGINIA PORT AUTHORITY</title>
+            <onlink>www.vaport.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>PORT OF LOS ANGELES</origin>
+            <pubdate>unknown</pubdate>
+            <title>PORT OF LOS ANGELES</title>
+            <onlink>www.portoflosangeles.org/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>PACIFIC COAST CONTAINER</origin>
+            <pubdate>unknown</pubdate>
+            <title>PACIFIC COAST CONTAINER</title>
+            <onlink>www.pacificcoastcontainer.net/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Emery</origin>
+            <pubdate>unknown</pubdate>
+            <title>Emery</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Postal Service</origin>
+            <pubdate>unknown</pubdate>
+            <title>United States Postal Service</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>PORT OF TAMPA</origin>
+            <pubdate>unknown</pubdate>
+            <title>PORT OF TAMPA</title>
+            <onlink>http://www.tampaport.com/display.asp?PAGE_NAME=Home+Page</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>PORT OF LONG BEACH</origin>
+            <pubdate>unknown</pubdate>
+            <title>PORT OF LONG BEACH</title>
+            <onlink>http://www.polb.com</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Norfolk Southern</origin>
+            <pubdate>unknown</pubdate>
+            <title>Norfolk Southern</title>
+            <onlink>www.nscorp.com/nscorp/html/home.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NS</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Burlington Northern Santa Fe</origin>
+            <pubdate>unknown</pubdate>
+            <title>Burlington Northern Santa Fe</title>
+            <onlink>www.bnsf.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>BNSF</srccitea>
+        <srccontr>Facility information containing cargo, commodity, and directionality.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The use of this data for network or attribute related queries should note that supplementary data is stored in a separate dbf files. These tables hold pertinent information in a relational database format, ID fields being linked as the primary keys and foreign keys. PU_FAC table's primary key is ID and is the foreign key in PU_CAR, PU_COM, and PU_DIR, identified by FAC_ID. The shape files match the corresponding dbf files, no conversion is needed to utilize either format for analysis. Data is based on various public and private published sources, i.e. IANA Railway Guide, WWW, Army Corps of Engineers - Port Report. These sources are frequently updated and revised, any particular inquires should be directed to the data source of the record or records.</procdesc>
+        <procdate>20020101</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics (OST-R/BTS)</cntorg>
+              <cntper>Office of Geospatial Information Systems</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1200 New Jersey Ave. S.E.</address>
+              <city>Washington</city>
+              <state>District of Columbia</state>
+              <postal>20590</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>(202) 366-DATA</cntvoice>
+            <cntemail>answers@bts.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>3280</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.983152841195215e-009</latres>
+        <longres>8.983152841195215e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>facility</enttypl>
+        <enttypd>An Intermodal facility is defined as generalized descriptors for collated customers and services.  The PU_FAC table contains facilities that support two or more modes of transportation.  These facilities can contain an address, but must contain a latitude and longitude.</enttypd>
+        <enttypds>USDOT/OST-R/BTS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Primary Key</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <udom>Character String</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Unique name for the facility location</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <udom>Character String</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>The primary function of the facility.</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Truck</edomv>
+            <edomvd>Truck</edomvd>
+            <edomvds>OST-R/BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>Rail</edomv>
+            <edomvd>Rail</edomvd>
+            <edomvds>OST-R/BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>Port</edomv>
+            <edomvd>Port</edomvd>
+            <edomvds>OST-R/BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>Air</edomv>
+            <edomvd>Air</edomvd>
+            <edomvds>OST-R/BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>Independent Port</edomv>
+            <edomvd>Independent Port</edomvd>
+            <edomvds>OST-R/BTS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MODE_TYPE</attrlabl>
+        <attrdef>Defines all the modes that are affiliated with this facility.</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>AIR &amp; TRUCK</edomv>
+            <edomvd>AIR &amp; TRUCK</edomvd>
+            <edomvds>OST-R/BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>PORT &amp; TRUCK</edomv>
+            <edomvd>PORT &amp; TRUCK</edomvd>
+            <edomvds>OST-R/BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>RAIL &amp; PORT</edomv>
+            <edomvd>RAIL &amp; PORT</edomvd>
+            <edomvds>OST-R/BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>RAIL &amp; TRUCK</edomv>
+            <edomvd>RAIL &amp; TRUCK</edomvd>
+            <edomvds>OST-R/BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>TRUCK &amp; TRUCK</edomv>
+            <edomvd>TRUCK &amp; TRUCK</edomvd>
+            <edomvds>OST-R/BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>TRUCK - AIR - RAIL</edomv>
+            <edomvd>TRUCK - AIR - RAIL</edomvd>
+            <edomvds>OST-R/BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>TRUCK - PORT - AIR</edomv>
+            <edomvd>TRUCK - PORT - AIR</edomvd>
+            <edomvds>OST-R/BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>TRUCK - PORT - RAIL - AIR</edomv>
+            <edomvd>TRUCK - PORT - RAIL - AIR</edomvd>
+            <edomvds>OST-R/BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>TRUCK - PORT - RAIL</edomv>
+            <edomvd>TRUCK - PORT - RAIL</edomvd>
+            <edomvds>OST-R/BTS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+        <attrdef>The city for the facilities location</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <udom>Character String</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>The state abbreviation for the facilities location</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <udom>Character String</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIPS</attrlabl>
+        <attrdef>Federal Information Processing Standards for the states</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Federal Information Processing Standard (FIPS), Publication 6-4</codesetn>
+            <codesets>National Institute for Standards and Technology (NIST)</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZIP</attrlabl>
+        <attrdef>The zip code for the facilities location</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <udom>Character String</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZIP2</attrlabl>
+        <attrdef>Zip Code Plus 4</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <udom>Character String</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PARCEL</attrlabl>
+        <attrdef>Indicates if a mail carrier is affiliated with this location</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <udom>Character String</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LATITUDE</attrlabl>
+        <attrdef>Latitude for the location</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-99</rdommin>
+            <rdommax>99</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LONGITUDE</attrlabl>
+        <attrdef>Longitude for the location</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-180</rdommin>
+            <rdommax>180</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEOSOURCE</attrlabl>
+        <attrdef>Source information of the latitude/longitude: either pre-determined or geocoded with Dynamap 2000</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <udom>Character String</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CREATEDATE</attrlabl>
+        <attrdef>The date the information was placed into the database</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <udom>Date Value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CREATOR</attrlabl>
+        <attrdef>The group of individuals responsible for populating that record</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <udom>Character String</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MODDATE</attrlabl>
+        <attrdef>Date of modifications to that facility's entry in the database</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <udom>Date Value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ASSOC</attrlabl>
+        <attrdef>List of other major business associated with this facility</attrdef>
+        <attrdefs>OST-R/BTS</attrdefs>
+        <attrdomv>
+          <udom>Character String</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Facilities
+a.Large scale operation that services various public and private customers in the transfer of various cargoes.
+b.Only successful geocoding is included in a dataset and reported in the attributes latitude, longitude, and geosource.</eaover>
+      <eadetcit>Directionality is directly related to the facility table, includes cargo or commodity records that have mode 1 to mode 2 restrictions or limitations requiring it to flow in only one direction.</eadetcit>
+      <eadetcit>Cargo is directly related to the facility table, used aggregated classifications of cargo types and commodity specific cargo types.</eadetcit>
+      <eadetcit>Commodity is directly related to the facility table, includes classifications based on the Commodity Flow Survey (USDOT/BTS) categorizations.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics (BTS)</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Office of Geospatial Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1200 New Jersey Ave. S.E.</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntemail>answers@bts.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>National Transportation Atlas Databases (NTAD) 2015</resdesc>
+    <distliab>None</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI Shapefile</formname>
+          <formvern>2015</formvern>
+          <transize>5.438</transize>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>dvd</offmedia>
+            <reccap>
+              <recden>650</recden>
+              <recdenu>Megabytes</recdenu>
+            </reccap>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+      <ordering>Call (202-366-DATA), or E-mail (answers@bts.gov) BTS to request the National Transportation Atlas Databases (NTAD) 2015 DVD. The NTAD DVD can be ordered from the online bookstore at www.bts.gov. Individual datasets from the NTAD can also be downloaded from the Office of Geospatial Information Systems website at http://www.bts.gov/programs/geographic_information_services/</ordering>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>20110101</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metd>20150610</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics (BTS)</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Office of Geospatial Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1200 New Jersey Ave. S.E.</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntemail>answers@bts.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metac>The access of this data is not restricted.</metac>
+    <metuc>The use of this data is not restricted.</metuc>
+  </metainfo>
+</metadata>

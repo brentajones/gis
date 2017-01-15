@@ -1,0 +1,796 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Intermodal Passenger Connectivity Database (IPCD) V. 2</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>1200 New Jersey Ave. SE, Washington, DC, 20590</pubplace>
+          <publish>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics</publish>
+        </pubinfo>
+        <onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The IPCD in 2015 now also represents locations, that share multiple mode transit choices, as only a single point.The IPCD data covers the following types of passenger transportation terminals: •Scheduled Airline Service Airports.•Intercity bus stations (includes stations served by regular scheduled intercity bus service such as Greyhound and Trailways, code sharing buses such as "Amtrak Thruway" feeder buses, supplemental buses that provide additional frequencies along rail routes, and airport bus services from locations that are outside of the airport Metropolitan Area.•Intercity and transit ferry terminals.•Light rail transit stations.•Heavy rail transit stations.•Passenger rail stations on the national rail network serving both commuter rail and intercity rail services.</abstract>
+      <purpose>Over 55 percent of the approximately 7,200 passenger transportation terminals in the United States offer travelers the ability to connect among the scheduled passenger transportation modes according to the Bureau of Transportation Statistics’ recently completed Intermodal Passenger Connectivity Database (IPCD).  Rail stations are most likely to offer connectivity, while connections are least likely to exist at airports.  The IPCD is the first ever national quantification of the degree of connectivity in the passenger transportation system.   It provides data on how many modes provide service at, or within a close radius of the rail, air, intercity bus and ferry terminals in the United States.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-176.646030</westbc>
+        <eastbc>-66.985040</eastbc>
+        <northbc>71.285450</northbc>
+        <southbc>19.720260</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Transportation</themekey>
+        <themekey>Passenger</themekey>
+        <themekey>Mass transit</themekey>
+        <themekey>Intermodal</themekey>
+        <themekey>NGDA</themekey>
+	<themekey>National Geospatial Data Asset</themekey>
+        <themekey>Transportation Theme</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>economy</themekey>
+        <themekey>society</themekey>
+        <themekey>transportation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>City</placekey>
+        <placekey>Metropolitan</placekey>
+        <placekey>Micrometropolitan</placekey>
+        <placekey>points</placekey>
+        <placekey>facilities</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2012</tempkey>
+        <tempkey>2013</tempkey>
+        <tempkey>2014</tempkey>
+        <tempkey>2015</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics</cntorg>
+          <cntper>Theresa Firestine</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE.</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>202-366-3629</cntvoice>
+        <cntemail>theresa.firestine@dot.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Geospatial Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntemail>answers@BTS.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>7239</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.983152841195215e-009</latres>
+        <longres>8.983152841195215e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ipcd</enttypl>
+        <enttypd>Attributes of Intermodal Passenger Facilities</enttypd>
+        <enttypds>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>A unique nine character facility identifier consisting of the state code for the facility, the zip code, and a sequential two digit number assigned to facilities within that zip code.</attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>9999</rdommax>
+          </rdom>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Point</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FACILITY_I</attrlabl>
+        <attrdef>Unique record identifier. The identifier is unique to each record; records located at the same location as another will each have a unique FacilityID.</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>point_ID</attrlabl>
+        <attrdef>Unique identifier for the transportation facility. The identifier is the same for records of different modes that are located at the same facility</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AIRPORT_CO</attrlabl>
+        <attrdef>3 Letter Airport Code</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AIRPORT__1</attrlabl>
+        <attrdef>Alternate 3 Character Airport Code</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AMTRAK_STA</attrlabl>
+        <attrdef>3 Character Amtrak Station Code</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FERRY_TERM</attrlabl>
+        <attrdef>4 Digit Ferry Terminal Code</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RAIL_ID</attrlabl>
+        <attrdef>RailID Record number for the heavy, light, or commuter rail station found in the U.S. Department of Transportation Bureau of Transportation Statistics National Transportation Atlas Databases (NTAD 2015) Fixed-Guideway Transit Facilities database.</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DATE_UPDAT</attrlabl>
+        <attrdef>Date on Which Record was Last Updated</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS</attrlabl>
+        <attrdef>Street Address</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+        <attrdef>City where the facility is located</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>Postal state abbreviation</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ZIPCODE</attrlabl>
+        <attrdef>ZipCode Postal Five Digit Zip Code </attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>METRO_AREA</attrlabl>
+        <attrdef>Name of Census Bureau Core Based Statistical Area (Metro Area) where the facility is located.</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FACILITY_N</attrlabl>
+        <attrdef>FacilityName Facility Name </attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LONGITUDE</attrlabl>
+        <attrdef>Longitude, Decimal degrees for the facility identified by the FacilityID. This is unique to each record.</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LATITUDE</attrlabl>
+        <attrdef>Latitude, Decimal degrees for the facility identified by the FacilityID. This is unique to each record.</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>POINT_LON</attrlabl>
+        <attrdef>PointLON Longitude, Decimal degrees for the facility identified by the point_ID. When two or more records are found at the same location, POINT_LON is the average of the Longitude fields for those records; otherwise same as the Longitude field. </attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>POINT_LAT</attrlabl>
+        <attrdef>Latitude, Decimal degrees for the facility identified by the point_ID. When two or more records are found at the same location, POINT_LAT is the average of the Latitude fields for those records; otherwise same as the Latitude field.</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FACILITY_T</attrlabl>
+        <attrdef>Facility Mode Identifier That Shows Primary Mode Serving a Facility. Other Modes May Also Provide Service as Shown in the Individual Facility Record.</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FERRY_TRAN</attrlabl>
+        <attrdef>Indicates whether transit ferry serves this facility </attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Service not provided at this facility but elsewhere in the city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Service provided at this facility</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Service by this mode not offered in this city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FERRY_INTE</attrlabl>
+        <attrdef>Indicates whether intercity ferry serves this facility</attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Service not provided at this facility but elsewhere in the city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Service provided at this facility</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met.</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Service by this mode not offered in this city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BUS_TRANSI</attrlabl>
+        <attrdef>Indicates whether transit bus serves this facility</attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Service not provided at this facility but elsewhere in the city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Service provided at this facility</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Service by this mode not offered in this city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BUS_INTERC</attrlabl>
+        <attrdef>Indicates whether intercity bus serves this facility </attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Service not provided at this faciltiy but elsewhere in the city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Service provided at this facility</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Service by this mode not offered in this city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BUS_CODE_S</attrlabl>
+        <attrdef>Indicates whether code share bus serves this facility </attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Service not provided at this facility but elsewhere in the city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Service provided at this faciltiy</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Service provided but does not qualify as a connecting mode because proximity, timing, or bi-diretional service criteria are not met</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Service by this mode not offered in this city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BUS_SUPPLE</attrlabl>
+        <attrdef>Indicates whether supplemental bus serves this facility </attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Service not provided at this faciltiy but elsewhere in the city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Service provided at this facility</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Service provided but does not qualify as a connecting mode because proximity, timing, or bi-diretional service criteria are not met</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Service bty this mode not offered in this city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RAIL_INTER</attrlabl>
+        <attrdef>Indicates whether intercity rail serves this facility </attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Service not provided at this facility but elsewhere in the city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Service provided at this facility</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Service provided but does not qualify as a connecting mode because proximity, timing, or bi-diretional service criteria not met</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Service by this mode not offered in this city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RAIL_COMMU</attrlabl>
+        <attrdef>Indicates whether commuter rail serves this facility</attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Service not provided at this facility but elsewhere in the city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Service provided at this facility</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Service provided but does not qualify as a connecting mode because proximity, timing, or bi-diretional service criteria are not met</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Service by this mode not offered in this dity</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RAIL_HEAVY</attrlabl>
+        <attrdef>Indicates whether heavy rail serves this facility </attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Service not provided at this facility but elsewhere in the city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Service provided at this facility</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Service provided but does not qualify as a conneting mode because proximity, timing, or bi-diretional service friteria are not met</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Service by this mode not offered in this city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RAIL_LIGHT</attrlabl>
+        <attrdef>Indicates whether light rail serves this facility </attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Service not provided at this facility but elsewhere in the city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Service provided at this facility</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Service by this mode not offered in this city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AIR_SERVIC</attrlabl>
+        <attrdef>Indicates whether airline service serves this facility </attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Service not provided at this facility but elsewhere in the city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Service provided at this facility</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Service provided but does not qualify as a conneting mode because proximity, timing, or bi-diretional service criteria are not met</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Service by this mode not offered in this city</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WEBSITE</attrlabl>
+        <attrdef>Web Address for Official Facility Website</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NOTES</attrlabl>
+        <attrdef>Notes on Service Providers, Connectivity Issues, etc.</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DATA_SOURC</attrlabl>
+        <attrdef>Data Sources Used</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>INTERCITY_</attrlabl>
+        <attrdef>Indicator that service at facility is provided by at least one transit mode (RailCommuter, RailHeavy, RailLight, BusTransit, or FerryTransit)</attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No Intercity servie available</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Intercity Service Available</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TRANSIT_SE</attrlabl>
+        <attrdef>Indicator that service at facility is provided by at least one transit mode (RailCommuter, RailHeavy, RailLight, BusTransit, or FerryTransit)</attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No Transit Service Available</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Transit Service Available</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CBSA_CODE</attrlabl>
+        <attrdef>Census Bureau Core Based Statistical Area Code</attrdef>
+        <attrdefs>OST-R</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CBSA_TYPE</attrlabl>
+        <attrdef>Indicates whether CBSA is a Metropolitan Statistical Area (population at least 50,000+) or a Micropolitan Statistical Area (population 10,000-50,000)</attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Not in a CBSA</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>METRO</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>MICRO</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MODES_SERV</attrlabl>
+        <attrdef>Count of the Number of Transportation Modes Serving the Facility (from ModeBus, ModeAir, ModeRailStd, ModeRailTrt, ModeFerry)</attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Facility served by 1 mode</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Facilty Served by 2 modes</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Facilty Served by 3 modes</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Facilty Served by 4 modes</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MODE_BUS</attrlabl>
+        <attrdef>Indicates if Any Category of Bus Service is Provided at the Facility (BusIntercity, BusTransit, BusCodeShare, BusSupplemental)</attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No bus service available</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Bus service is available</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MODE_AIR</attrlabl>
+        <attrdef>Indicates if Any Category of Air Service is Provided at the Facility (AirService)</attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No air service available</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Air service is available</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MODE_RAIL</attrlabl>
+        <attrdef>Indicates if Any Category of Rail Service is Provided at the Facility (RailIntercity. RailCommuter, RailHeavy, or RailLight)</attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No rail service available</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Rail sewrvice is available</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MODE_FERRY</attrlabl>
+        <attrdef>Indicates if Any Category of Ferry Service is Provided at the Facility (FerryIntercity or FerryTransit)</attrdef>
+        <attrdefs>OST-R</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No ferry service available</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Ferry service is available</edomvd>
+            <edomvds>OST-R</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Geospatial Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntemail>answers@BTS.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>National Transportation Atlas Databases (NTAD) 2015</resdesc>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI Shapefile</formname>
+          <formvern>2015</formvern>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>dvd</offmedia>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <ordering>Call (202-366-DATA), or E-mail (answers@bts.gov) BTS to request the National Transportation Atlas Databases (NTAD) 2015 DVD. The NTAD DVD can be ordered from the online bookstore at www.bts.gov. Individual datasets from the NTAD can also be downloaded from the Office of Geospatial Information Systems website at http://www.bts.gov/programs/geographic_information_services/</ordering>
+    </stdorder>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Geospatial Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntemail>answers@BTS.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20150610</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Geospatial Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntemail>answers@BTS.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

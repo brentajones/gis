@@ -1,0 +1,620 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Peg Rawson, National Atlas of the United States</origin>
+        <pubdate>20140101</pubdate>
+        <title>dams v. 2</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>1200 New Jersey Ave. SE, Washington, DC, 20590</pubplace>
+          <publish>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics</publish>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This map layer portrays major dams of the United States, including Puerto Rico and the U.S. Virgin Islands. The map layer was created by extracting dams 50 feet or more in height, or with a normal storage capacity of 5,000 acre-feet or more, or with a maximum storage capacity of 25,000 acre-feet or more, from the 79,777 dams in the U.S. Army Corps of Engineers National Inventory of Dams. This is a replacement for the April 1994 map layer.</abstract>
+      <purpose>These data are intended for geographic display and analysis at the national level, and for large regional areas.  The data should be displayed and analyzed at scales appropriate for 1:2,000,000-scale data.  No responsibility is assumed by the National Atlas of the United States in the use of these data.  Supplemental_Information: In the online National Atlas of the United States Map Maker, at scales smaller than 1:4,850,000 the data is thinned for display purposes.  For scales between 1: 4,850,000 and 1:22,000,000, dams are only shown if they have a height of 500 feet or more, or a normal storage capacity of 50,000 acre-feet or more, or a maximum storage capacity of 250,000 acre-feet or more (1280 dams).  At scales smaller than 1:22,000,000, dams are only shown if they have a height of 5000 feet or more, or a normal storage capacity of 500,000 acre-feet or more, or a maximum storage capacity of 2,500,000 acre-feet or more (290 dams).</purpose>
+      <supplinf> In the online National Atlas of the United States Map Maker, at scales 
+      smaller than 1:4,850,000 the data is thinned for display purposes.  For
+      scales between 1: 4,850,000 and 1:22,000,000, dams are only shown if they 
+      have a height of 500 feet or more, or a normal storage capacity of 50,000 
+      acre-feet or more, or a maximum storage capacity of 250,000 acre-feet or 
+      more (1280 dams).  At scales smaller than 1:22,000,000, dams are only 
+      shown if they have a height of 5000 feet or more, or a normal storage 
+      capacity of 500,000 acre-feet or more, or a maximum storage capacity of 
+      2,500,000 acre-feet or more (290 dams).</supplinf>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-162.877839</westbc>
+        <eastbc>-66.014998</eastbc>
+        <northbc>68.069399</northbc>
+        <southbc>18.017303</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Inland Waters</themekey>
+        <themekey>Hydrography</themekey>
+        <themekey>Dams</themekey>
+        <themekey>Dam safety</themekey>
+        <themekey>Reservoirs</themekey>
+        <themekey>Reservoir capacity</themekey>
+        <themekey>Reservoir storage</themekey>
+        <themekey>Surface water</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>location</themekey>
+        <themekey>structure</themekey>
+        <themekey>transportation</themekey>
+        <themekey>utilitiesCommunication</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>USA</placekey>
+        <placekey>Alaska</placekey>
+        <placekey>Alabama</placekey>
+        <placekey>Arkansas</placekey>
+        <placekey>Arizona</placekey>
+        <placekey>California</placekey>
+        <placekey>Colorado</placekey>
+        <placekey>Connecticut</placekey>
+        <placekey>Delaware</placekey>
+        <placekey>Florida</placekey>
+        <placekey>Georgia</placekey>
+        <placekey>Hawaii</placekey>
+        <placekey>Idaho</placekey>
+        <placekey>Iowa</placekey>
+        <placekey>Illinois</placekey>
+        <placekey>Indiana</placekey>
+        <placekey>Kansas</placekey>
+        <placekey>Kentucky</placekey>
+        <placekey>Louisiana</placekey>
+        <placekey>Maine</placekey>
+        <placekey>Massachusetts</placekey>
+        <placekey>Maryland</placekey>
+        <placekey>Michigan</placekey>
+        <placekey>Minnesota</placekey>
+        <placekey>Missouri</placekey>
+        <placekey>Mississippi</placekey>
+        <placekey>Montana</placekey>
+        <placekey>North Carolina</placekey>
+        <placekey>North Dakota</placekey>
+        <placekey>Nebraska</placekey>
+        <placekey>New Hampshire</placekey>
+        <placekey>New Jersey</placekey>
+        <placekey>New Mexico</placekey>
+        <placekey>Nevada</placekey>
+        <placekey>New York</placekey>
+        <placekey>Ohio</placekey>
+        <placekey>Oklahoma</placekey>
+        <placekey>Oregon</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Rhode Island</placekey>
+        <placekey>South Carolina</placekey>
+        <placekey>South Dakota</placekey>
+        <placekey>Tennessee</placekey>
+        <placekey>Texas</placekey>
+        <placekey>United States</placekey>
+        <placekey>Utah</placekey>
+        <placekey>Vermont</placekey>
+        <placekey>Virginia</placekey>
+        <placekey>Wisconsin</placekey>
+        <placekey>Washington</placekey>
+        <placekey>West Virginia</placekey>
+        <placekey>Wyoming</placekey>
+        <placekey>Puerto Rico</placekey>
+        <placekey>Virgin Islands</placekey>
+        <placekey>U.S. Virgin Islands</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2002</tempkey>
+        <tempkey>2004</tempkey>
+        <tempkey>2013</tempkey>
+        <tempkey>2014</tempkey>
+        <tempkey>2015</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Geospatial Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntemail>answers@BTS.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>National Atlas of the United States</cntorg>
+          <cntper>Peg Rawson</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>12201 Sunrise Valley Drive</address>
+          <city>Reston</city>
+          <state>Virginia</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>703-648-4183</cntvoice>
+        <cntemail>atlasmail@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>8121</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.983152841195215e-009</latres>
+        <longres>8.983152841195215e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>dams</enttypl>
+        <enttypd>Any artificial barrier, including appurtenant works, which impounds or diverts water, and which (1) is twenty-five feet or more in height from the natural bed of the stream or watercourse measured at the downstream toe of the barrier, or from the lowest elevation of the outside limit of the barrier, if it is not across a stream channel or watercourse, to the maximum water storage elevation or (2) has an impounding capacity at maximum water storage elevation of fifty acre-feet or more.  This Act does not apply to any such barrier which is not in excess of six feet in height, regardless of storage capacity or which has a storage capacity at maximum water storage elevation not in excess of fifteen acre-feet, regardless of height, unless such barrier, due to its location or other physical characteristic, is likely to pose a significant threat to human life or property in the event of its failure.</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DAMS00X020</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DAM_NAME</attrlabl>
+        <attrdef>The official name of the dam.  For dams that do not have an official name, the popular name is used.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OTHER_NAME</attrlabl>
+        <attrdef>The reservoir name or names in common use other than the official name of the dam.  Names are separated with semicolons.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NIDID</attrlabl>
+        <attrdef>The official National Inventory of Dams identification number for the dam, known formerly as the National Id.  The first two characters of the identity are the State two letter abbreviation, based on the location of the dam.  The last five characters of the identity are a unique number (AB#####).</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LONGITUDE</attrlabl>
+        <attrdef>Dam longitude as a single value, in decimal degrees.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LATITUDE</attrlabl>
+        <attrdef>Dam latitude as a single value, in decimal degrees.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>The name of the county in which the dam is located.  If the dam falls in more than one county, the names may be separated by a slash, a comma, or a semicolon.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RIVER</attrlabl>
+        <attrdef> The official name of the river or stream on which the dam is built.  If the stream is unnamed, it is identified as a tributary ("TR") to a named river.  If the dam is located offstream, the name of the river or stream is entered plus "-OS" or "OFFSTREAM".</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+        <attrdef>The name of the nearest city, town, or village that is most likely to be affected by floods resulting from the failure of the dam.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OWN_NAME</attrlabl>
+        <attrdef>The name of the owner of the dam.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OWN_TYPE</attrlabl>
+        <attrdef>A term indicating owner type.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>The dam is owned by a Federal agency</edomvd>
+          </edom>
+          <edom>
+            <edomv>L</edomv>
+            <edomvd>The dam i owned by a County, City, Regional, or other similar local.</edomvd>
+          </edom>
+          <edom>
+            <edomv>P</edomv>
+            <edomvd>The dam is owned by an individual or individuals, or by a private company.</edomvd>
+          </edom>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>The dam is owned by a State jor by a State agency.</edomvd>
+          </edom>
+          <edom>
+            <edomv>U</edomv>
+            <edomvd>The dam is owned by a puboic utility</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DAM_TYPE</attrlabl>
+        <attrdomv>
+          <edom>
+            <edomv>CB</edomv>
+            <edomvd>Buttress</edomvd>
+          </edom>
+          <edom>
+            <edomv>CN</edomv>
+            <edomvd>Concrete</edomvd>
+          </edom>
+          <edom>
+            <edomv>ER</edomv>
+            <edomvd>Rockfill</edomvd>
+          </edom>
+          <edom>
+            <edomv>MS</edomv>
+            <edomvd>Masonry</edomvd>
+          </edom>
+          <edom>
+            <edomv>MV</edomv>
+            <edomvd>Multi-arch</edomvd>
+          </edom>
+          <edom>
+            <edomv>OT</edomv>
+            <edomvd>Other</edomvd>
+          </edom>
+          <edom>
+            <edomv>PG</edomv>
+            <edomvd>Gravity</edomvd>
+          </edom>
+          <edom>
+            <edomv>RE</edomv>
+            <edomvd>Earth</edomvd>
+          </edom>
+          <edom>
+            <edomv>ST</edomv>
+            <edomvd>Stone</edomvd>
+          </edom>
+          <edom>
+            <edomv>TC</edomv>
+            <edomvd>Timber Crib</edomvd>
+          </edom>
+          <edom>
+            <edomv>VA</edomv>
+            <edomvd>Arch</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PURPOSES</attrlabl>
+        <attrdef>A code or codes indicating the purposes for which reservoir is used, in order of importance.  The codes are concatenated if the dam has multiple purposes.  For example, SCR would indicate the primary purposes of Water Supply and Flood Control and Storm Water Management, followed by Recreation.  The data may contain words or abbreviations that were used instead of the appropriate codes; these have been retained.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Flood Control and storm water management</edomvd>
+          </edom>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Debris control</edomvd>
+          </edom>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>Fish and wildlife pond</edomvd>
+          </edom>
+          <edom>
+            <edomv>H</edomv>
+            <edomvd>Hydroelectric</edomvd>
+          </edom>
+          <edom>
+            <edomv>I</edomv>
+            <edomvd>Irrigation</edomvd>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Navigation</edomvd>
+          </edom>
+          <edom>
+            <edomv>O</edomv>
+            <edomvd>Other</edomvd>
+          </edom>
+          <edom>
+            <edomv>P</edomv>
+            <edomvd>Fire protection, stock, or small farm pond</edomvd>
+          </edom>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Recreation</edomvd>
+          </edom>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>Water supply</edomvd>
+          </edom>
+          <edom>
+            <edomv>T</edomv>
+            <edomvd>Tailings</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YR_COMPL</attrlabl>
+        <attrdef>The year when the main dam structure was completed.  A value of 0 indicates that the year is unknown.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>1800</rdommin>
+            <rdommax>2003</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NID_HEIGHT</attrlabl>
+        <attrdef>The maximum of either the dam height (the vertical distance between the         lowest point on the crest of the dam and the lowest point in the original streambed), the hydraulic height (the vertical distance between the maximum designed water level and the lowest point in the original streambed), or the structural height (the vertical distance between the lowest point of the excavated foundation and the top of the dam) of the dam.  The height is given in feet, to the nearest foot.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>3.0000000000</rdommin>
+            <rdommax>770.0000000000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MAX_STOR</attrlabl>
+        <attrdef>The maximum storage in acre-feet.  Maximum storage is the total storage        space in a reservoir below the maximum attainable water surface elevation, including any surcharge storage.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>0.0000000000</edomv>
+            <edomvd>The maximum storage is unknown</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>1.000000000000</rdommin>
+            <rdommax>9700000000.00000000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NORMAL_STO</attrlabl>
+        <attrdef>The normal storage in acre-feet.  Normal storage is the total storage space in a reservoir below the normal retention level, including dead and inactive storage and excluding any flood control surcharge storage.  A value of 0 may indicate that the normal storage is unknown or may indicate that the dam is normally dry.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.000000000000</rdommin>
+            <rdommax>9700000000.00000000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURF_AREA</attrlabl>
+        <attrdef>The surface area, in acres, of the impoundment at its normal retention level.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>0.00000000000</edomv>
+            <edomvd>The surface area is unknown.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.01000000000</rdommin>
+            <rdommax>20358400.0000000000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DRAIN_AREA</attrlabl>
+        <attrdef>The drainage area of the dam in square miles.  It is defined as the area that drains to a particular point (in this case, the dam) on a river or stream.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>0.00000000000</edomv>
+            <edomvd>The drinage area is unknown</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00156250000</rdommin>
+            <rdommax>1250000.00000000000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HAZARD</attrlabl>
+        <attrdef>A term indicating the potential hazard to the downstream area resulting from failure or mis-operation of the dam or facilities.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>L</edomv>
+            <edomvd>The potential hazard is low.  A dam where failure or misoperation results in no probable loss of human life and low economic and/or environmental loss.  Losses are principally limited to the owner's property.</edomvd>
+          </edom>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>The potential hazard is significant.  A dam where failure or misoperation results in no probable loss of human life but can cause economic loss, environmental damage, disruption of lifeline facilities, or impact other concerns.  These dams are often located in predominantly rural or agricultural areas but could be located in areas with population and significant infrastructure.</edomvd>
+          </edom>
+          <edom>
+            <edomv>H</edomv>
+            <edomvd>The potential hazard is high.  A dam where failure or misoperation will probably cause loss of human life.</edomvd>
+          </edom>
+          <edom>
+            <edomv>U</edomv>
+            <edomvd>The potential hazard is unknown.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>The two letter abbreviation for the State in which the dam is located.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SYMBOL</attrlabl>
+        <attrdef> A code indicating how the dam is symbolized in the National Atlas Map Maker.  The symbol is determined from the primary Purpose code given for the dam, which is the first or only code listed under the attribute Purpose.  Where the Purpose attribute contains a word or abbreviation instead of the appropriate code, the first letter of the Purpose value was still used to  determine the symbol code.  In these cases the symbol may not accurately  represent the true primary purpose of the dam.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>The dam is for flood control and storm water management.</edomvd>
+          </edom>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>The dam is for debris control</edomvd>
+          </edom>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>The dam contains a fish and wildlife pond</edomvd>
+          </edom>
+          <edom>
+            <edomv>H</edomv>
+            <edomvd>The dam is for hydroelectric power</edomvd>
+          </edom>
+          <edom>
+            <edomv>I</edomv>
+            <edomvd>The reservoir contained by the dam is for irrigation.</edomvd>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>The dam is for navigation</edomvd>
+          </edom>
+          <edom>
+            <edomv>O</edomv>
+            <edomvd>The dam or reservoir contained by the dam has a primary purpose other than flood control and storm water management; debris control; fish and wildlife pond; hydroelectric; irrigation; navigation; fire protection, stock, or small farm pond; recreation; water supply; or tailings.</edomvd>
+          </edom>
+          <edom>
+            <edomv>P</edomv>
+            <edomvd>The dam contains a fire protection, stock, or small farm pond.</edomvd>
+          </edom>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>The reservoir contained by the dam is for recreation.</edomvd>
+          </edom>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>The reservoir contained by the dam is for recreation.</edomvd>
+          </edom>
+          <edom>
+            <edomv>T</edomv>
+            <edomvd>The dam contains a tailings pond.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Earth Science Information Center, U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>507 National Center</address>
+          <city>Reston</city>
+          <state>Virginia</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>703-648-5920</cntvoice>
+        <cntinst>In addition to the address above there are other ESIC offices throughout the country.  A full list of these offices is at  &lt;http://ask.usgs.gov/esic_index.html&gt;.
+
+ Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made by the U.S. Geological Survey regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty.  No responsibility is assumed by the U.S. Geological Survey in the use of these data.</cntinst>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcInfo Coverage</formname>
+          <transize>6.491</transize>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics</cntorg>
+          <cntper>Office of Geospatial Information Systems (National Transportation Atlas Databases (NTAD) 2015)</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+        </cntaddr>
+        <cntvoice>202-366-DATA</cntvoice>
+        <cntemail>answers@BTS.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>National Transportation Atlas Databases (NTAD) 2015</resdesc>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI Shapefile</formname>
+          <formvern>2015</formvern>
+          <filedec>No compression applied.</filedec>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>dvd</offmedia>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <ordering>Call (202-366-DATA), or E-mail (answers@bts.gov) BTS to request the National Transportation Atlas Databases (NTAD) 2015 DVD. The NTAD DVD can be ordered from the online bookstore at www.bts.gov. Individual datasets from the NTAD can also be downloaded from the Office of Geospatial Information Systems website at http://www.bts.gov/programs/geographic_information_services/</ordering>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20150610</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>National Atlas of the United States</cntorg>
+          <cntper>Peg Rawson</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>12201 Sunrise Valley Drive</address>
+          <city>Reston</city>
+          <state>Virginia</state>
+          <postal>20192</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>703-648-4183</cntvoice>
+        <cntemail>atlasmail@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metuc>None. Acknowledgment of the National Atlas of the United States of America would be appreciated in products derived from these data.</metuc>
+  </metainfo>
+</metadata>

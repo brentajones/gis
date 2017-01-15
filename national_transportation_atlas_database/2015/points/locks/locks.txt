@@ -1,0 +1,720 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>US Army Corps of Engineers (USACE), Navigation Data Center (NDC)</origin>
+        <pubdate>20130101</pubdate>
+        <title>U.S. Waterway Locks v. 3</title>
+        <edition>2015</edition>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Navigation Data Center had several objectives in developing the U.S. Waterway Data. These objectives support the concept of a National Spatial Data Provide public access to national waterway data. Foster interagency and intra-agency cooperation through data sharing. Provide a mechanism to integrate waterway data (U.S. Army Corps of Engineers Port/Facility and U.S. Coast Guard Accident Data, for example) Provide a basis for intermodal analysis. Assist standardization of waterway entity definitions (Ports/Facilities, Locks, etc.). Provide public access to the National Waterway Network, which can be used as a basemap to support graphical overlays and analysis with other spatial data (waterway and modal network/facility databases, for example). Provide reliable data to support future waterway and intermodal applications. Source of Data The data included in these files are based upon the Annual Summary of Lock Statistics published by the U.S. Army Corps of Engineers/CEIWR, Navigation Data Center. The data are collected at each Corps owned and/or operated Lock by Corps personnel and towing industry vessel operators. This data was collected from the US Army Corps of Engineers and distributed on the National Transportation Atlas Databases (NTAD) 2015.</abstract>
+      <purpose>Monthly summary statistics are based on data from the Lock Performance Monitoring System (LPMS). The LPMS was developed to collect a 100% sample of data on the locks that are owned and/or operated by the US Army Corps of Engineers. Each record contains data summarized monthly by lock chamber, and direction (upbound and number and types of vessels and lockages (recreation, commercial, tows, other), cuts, hardware operations, delay and processing times, number of tows and all vessels delayed, total tons, commodity tonnages, and number of barges. The data are by waterway  and by calendar year. The waterway files contain 5 years of data for one  waterway. The calendar year files contain 1 year of data for all waterways. </purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-122.614394</westbc>
+        <eastbc>-73.685323</eastbc>
+        <northbc>47.665718</northbc>
+        <southbc>26.721765</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>COMMODITY/VESSEL AND LOCKAGE DATA DICTIONARY </themekt>
+        <themekey>River milepoint of structure</themekey>
+        <themekey>River Name</themekey>
+        <themekey>COE Division code</themekey>
+        <themekey>COE District code</themekey>
+        <themekey>Latitude in decimal</themekey>
+        <themekey>Longitude in decimal</themekey>
+        <themekey>Direction of transit (UPBOUND OR DOWNBOUND)</themekey>
+        <themekey>Commodity Tonnage</themekey>
+        <themekey>Number of Barges by Commodity</themekey>
+        <themekey>Commodity Code &amp; Description</themekey>
+        <themekey>Chamber Name (Main or Aux)</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Points</themekey>
+        <themekey>Water Way</themekey>
+        <themekey>Locks</themekey>
+        <themekey>NTAD</themekey>
+        <themekey>National Transportation Atlas Databases</themekey>
+        <themekey>NGDA</themekey>
+	<themekey>National Geospatial Data Asset</themekey>
+        <themekey>Transportation Theme</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>transportation</themekey>
+      </theme>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2013</tempkey>
+        <tempkey>2014</tempkey>
+        <tempkey>2015</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Geospatial Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave. SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>DC</postal>
+        </cntaddr>
+        <cntvoice>800-853-1351</cntvoice>
+        <cntemail>answers@bts.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Navigation Data Center (NDC)</cntorg>
+          <cntper>US Army Corps of Engineers (USACE)</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>7701 Telegraph Road, Casey Building</address>
+          <city>Alexandria</city>
+          <state>VA</state>
+          <postal>22315-3868</postal>
+        </cntaddr>
+        <cntvoice>703-428-9061</cntvoice>
+        <cntfax>703-428-6047</cntfax>
+        <cntemail>CEIWR-NDC.WEBMASTER@usace.army.mil</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>291</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.983152841195215e-009</latres>
+        <longres>8.983152841195215e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>locks</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NDCCODE</attrlabl>
+        <attrdef>Unique NDC dock &amp; Lock ID</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>REGION</attrlabl>
+        <attrdef>Geographic Region code.  Abbreviations of regions (alphanumeric)</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>AT</edomv>
+            <edomvd>Atlantic</edomvd>
+          </edom>
+          <edom>
+            <edomv>GL</edomv>
+            <edomvd>Great Lakes</edomvd>
+          </edom>
+          <edom>
+            <edomv>GU</edomv>
+            <edomvd>Gulf of Mexico</edomvd>
+          </edom>
+          <edom>
+            <edomv>IN</edomv>
+            <edomvd>Inland</edomvd>
+          </edom>
+          <edom>
+            <edomv>PC</edomv>
+            <edomvd>Pacific Coast</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RIVERCD</attrlabl>
+        <attrdef>LPMS river code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LOCKCD</attrlabl>
+        <attrdef>OPMS chamber code</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CHMBCD</attrlabl>
+        <attrdef>LPMS chamber code</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NOCHMB</attrlabl>
+        <attrdef>number pf chambers in the lock</attrdef>
+        <attrdefs>USACE</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PMSDATA</attrlabl>
+        <attrdef>LPMS data colleccted at lock site</attrdef>
+        <attrdefs>USACE</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>No</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAVSTR</attrlabl>
+        <attrdef>Structure name (Lock name)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CHAMBN</attrlabl>
+        <attrdef>Chamber name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CHB1</attrlabl>
+        <attrdef>Classification of structure</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>M</edomv>
+            <edomvd>Main</edomvd>
+          </edom>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>Aux</edomvd>
+          </edom>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Control Structure</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STR1</attrlabl>
+        <attrdef>Type of structure</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>L</edomv>
+            <edomvd>Lock &amp; Dam</edomvd>
+          </edom>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>Flood Gate</edomvd>
+          </edom>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Control Structure</edomvd>
+          </edom>
+          <edom>
+            <edomv>B</edomv>
+            <edomvd>Barrier</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PMSNAME</attrlabl>
+        <attrdef>LPMS Lock Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ALIAS</attrlabl>
+        <attrdef>Alias name of structure</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>STATUS</attrlabl>
+        <attrdef>Status of lock (operable/inoperable)</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Operational</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Seasonal</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Operational - Weekend/Summer</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Under Construction</edomvd>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Caretaker</edomvd>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Inoperable</edomvd>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Closed with open gates</edomvd>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Replaced</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>8</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RIVER</attrlabl>
+        <attrdef>River name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RIVERMI</attrlabl>
+        <attrdef>River milepoint of structure</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BANK</attrlabl>
+        <attrdef>Lock location</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>L</edomv>
+            <edomvd>Left River Bank</edomvd>
+          </edom>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Right River Bank</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LIFT</attrlabl>
+        <attrdef>Dist. from empty to full</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CHMBUL</attrlabl>
+        <attrdef>Chamber useable length</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>WIDTH</attrlabl>
+        <attrdef>Width of chamber</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CHMBUW</attrlabl>
+        <attrdef>Chamber useable width</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AUDPA</attrlabl>
+        <attrdef>Authorized channel depth (above)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AUDPB</attrlabl>
+        <attrdef>Authorized channel depth (below)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>UPDPTHMS</attrlabl>
+        <attrdef>Upper depth of miter still</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LWDPTHMS</attrlabl>
+        <attrdef>Lower depth of miter still</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>YEAROPEN</attrlabl>
+        <attrdef>Year structure opened</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>GATETYPE</attrlabl>
+        <attrdef>Physical description of gate</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>GATE</attrlabl>
+        <attrdef>Type of gate</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Miter</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Sector</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Tainter</edomvd>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd> Vertical &amp; Submersible</edomvd>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Leaf</edomvd>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Replaced</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>7</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CHNLGTH</attrlabl>
+        <attrdef>Channel length</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CHNDPTHA</attrlabl>
+        <attrdef>Channel depth (above)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CHNDPTHB</attrlabl>
+        <attrdef>Channel depth (below)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CHNWDTHA</attrlabl>
+        <attrdef>Channel width (above)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CHNWDTHB</attrlabl>
+        <attrdef>Channel width (below)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>WWPRJCT</attrlabl>
+        <attrdef>Waterway project</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MOORING</attrlabl>
+        <attrdef>Mooring devices=</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>No</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MULTI</attrlabl>
+        <attrdef>Multi use of structure</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Navigation</edomvd>
+          </edom>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Recreation</edomvd>
+          </edom>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Commercial</edomvd>
+          </edom>
+          <edom>
+            <edomv>P</edomv>
+            <edomvd>Power</edomvd>
+          </edom>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>Flood Control</edomvd>
+          </edom>
+          <edom>
+            <edomv>I</edomv>
+            <edomvd>Irragation</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DIVISION</attrlabl>
+        <attrdef>COE Division</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DISTRICT</attrlabl>
+        <attrdef>COE District</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>State of lock
+State Postal code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MAINT1</attrlabl>
+        <attrdef>Designated code for maintenance</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Corps</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>TVA</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Other Federal</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>State</edomvd>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Local (City)</edomvd>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Private</edomvd>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Contractor</edomvd>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Caretaker</edomvd>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Other</edomvd>
+          </edom>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Unknown</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>10</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OPER1</attrlabl>
+        <attrdef>Designated code for operations</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Corps</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>TVA</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Other Federal</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>State</edomvd>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Local (City)</edomvd>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Private</edomvd>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Contractor</edomvd>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Caretaker</edomvd>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Other</edomvd>
+          </edom>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Unknown</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>10</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OWNER1</attrlabl>
+        <attrdef>Designated code for operation</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Corps</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>TVA</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Other Federal</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>State</edomvd>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Local (City)</edomvd>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Private</edomvd>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Contractor</edomvd>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Caretaker</edomvd>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Other</edomvd>
+          </edom>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Unknown</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>10</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOWN</attrlabl>
+        <attrdef>Town of structure</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CONTY1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MOORING_R</attrlabl>
+        <attrdef>Mooring remarks</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>GEN_REMK</attrlabl>
+        <attrdef>General lock site remarks</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>REP_LK_N</attrlabl>
+        <attrdef>Name of replaced lock (lookup)</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics(BTS)</cntorg>
+          <cntper>National Transportation Atlas Databases (NTAD) 2015</cntper>
+        </cntorgp>
+        <cntpos>Geospatial Information Services</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1200 New Jersey Ave SE</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>2023-366-DATA</cntvoice>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20150610</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Navigation Data Center (NDC)</cntorg>
+          <cntper>US Army Corps of Engineers (USACE)</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>7701 Telegraph Road, Casey Building</address>
+          <city>Alexandria</city>
+          <state>VA</state>
+          <postal>22315-3868</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>703-428-9061</cntvoice>
+        <cntfax>703-428-6047</cntfax>
+        <cntemail>CEIWR-NDC.WEBMASTER@usace.army.mil</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metuc>None None 2. Spatial Data Organization Information Vector Point 275 3. Spatial Data Reference Latitudes, Longitudes Feet 0 0 4. Metadata Reference Information 199605 USACE Navigation Data Center Mailing address 7701 Telegraph Road CEIWR-NDC-S) Alexandria Virginia 22315-3868 703-428-9061 FGDC Content Standards for Digital Geospatial Metadata 19940608</metuc>
+  </metainfo>
+</metadata>
