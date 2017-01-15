@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "PORT": "I2385", "PORT_NAME": "Kansas City, MO", "TOTAL": "1,445,381", "DOMESTIC": "1,445,381", "FOREIGN": "0", "IMPORTS": "0", "EXPORTS": "0", "STPOSTAL": "MO", "STFIPS": "29" }, "geometry": { "type": "Point", "coordinates": [ -94.60762, 39.115 ] } },
+{ "type": "Feature", "properties": { "PORT": "I2300", "PORT_NAME": "Caruthersville Harbor, MO", "TOTAL": "2,599,496", "DOMESTIC": "2,599,496", "FOREIGN": "0", "IMPORTS": "0", "EXPORTS": "0", "STPOSTAL": "MO", "STFIPS": "29" }, "geometry": { "type": "Point", "coordinates": [ -89.684731, 36.221071 ] } },
+{ "type": "Feature", "properties": { "PORT": "I2310", "PORT_NAME": "St. Louis, MO and IL", "TOTAL": "33,574,650", "DOMESTIC": "33,574,650", "FOREIGN": "0", "IMPORTS": "0", "EXPORTS": "0", "STPOSTAL": "MO", "STFIPS": "29" }, "geometry": { "type": "Point", "coordinates": [ -90.22961, 38.56954 ] } },
+{ "type": "Feature", "properties": { "PORT": "I2301", "PORT_NAME": "Southeast Missouri Port, MO", "TOTAL": "830,948", "DOMESTIC": "830,948", "FOREIGN": "0", "IMPORTS": "0", "EXPORTS": "0", "STPOSTAL": "MO", "STFIPS": "29" }, "geometry": { "type": "Point", "coordinates": [ -89.93488, 37.97332 ] } }
+]
+}
